@@ -1,2 +1,2 @@
-# dotfiles-i3
+# dotfiles
 My personal
