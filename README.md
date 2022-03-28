@@ -8,3 +8,4 @@
 - rofi
 - dunst
 - polybar
+- oh-my-zsh
