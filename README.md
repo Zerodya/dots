@@ -8,4 +8,4 @@
 - rofi
 - dunst
 - polybar
-- oh-my-zsh
+- zsh (w/ oh-my-zsh and powerlevel10k theme)
