@@ -16,6 +16,7 @@ Coming soon.
 sudo pacman -S 
 ```
 - git
+- i3
 - picom
 - xrandr
 - nitrogen
