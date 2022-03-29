@@ -10,8 +10,8 @@ Coming soon.
 ## Workflow:
 Coming soon.
 
-## Installation (Arch Linux):
-⚠️ **Disclaimer:** These steps are supposed to be run on a fresh Arch installation to get my current setup. This configuration is not guaranteed to work on your system, remember to make backups!
+## Full installation on a fresh Arch Linux system:
+These steps are supposed to be run on a fresh Arch installation to get my current setup. This configuration is not guaranteed to work on your system, remember to make backups!
 ### From Arch official repositories:
 ```
 sudo pacman -S
@@ -28,7 +28,11 @@ sudo pacman -S
 - zsh (w/ oh-my-zsh and powerlevel10k theme)
 
 ### From the AUR:
-Install `yay` first
+Note: it is recommended to edit /etc/makepkg.conf following [this guide](https://gist.github.com/beci/c737c89685a667053fe02f986d59ca44) for faster compiling time, or you can just use my file (I also `PKGEXT='.pkg.tar'`):
+```
+cp dotfiles/etc/makepkg.conf /etc
+```
+Install `yay`:
 ```
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 ```
@@ -37,15 +41,6 @@ then run:
 yay -S
 ```
 - nerd-fonts-complete
-
-### Additional software:
-This is software I usually download on my fresh systems, but it's not a requirement.
-```
-sudo pacman -S 
-```
-```
-yay -S
-```
 
 ### Replicate my setup:
 ⚠️ **Remember to backup your files first!!**
@@ -84,4 +79,13 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 Use my `zsh` config, and apply it using `source ~/.zshrc` if needed:
 ```
 cp dotfiles/.zshrc dotfiles/p10k.zsh ~/.
+```
+
+### Additional software:
+This is software I usually download on my fresh systems, but it's not a requirement.
+```
+sudo pacman -S 
+```
+```
+yay -S
 ```
