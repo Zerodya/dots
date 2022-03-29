@@ -28,3 +28,4 @@ sudo pacman -S
 ```
 yay -S
 ```
+nerd-fonts-complete
