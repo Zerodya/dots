@@ -1,5 +1,5 @@
 # My dotfiles
-
+(This repo is work in progress)
 
 ## About:
 
@@ -36,3 +36,10 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 yay -S
 ```
 - nerd-fonts-complete
+### Additional software
+```
+sudo pacman -S 
+```
+```
+yay -S
+```
