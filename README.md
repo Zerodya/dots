@@ -13,7 +13,7 @@ Coming soon.
 ## Installation (Arch):
 ### From Arch official repositories:
 ```
-sudo pacman -S 
+sudo pacman -S
 ```
 - git
 - i3
