@@ -25,13 +25,12 @@ sudo pacman -S
 - polybar
 - yay
 - zsh (w/ oh-my-zsh and powerlevel10k theme)
-### Manually
+### From the AUR:
+Install `yay` first
 ```
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 ```
-- yay
-
-### From the AUR:
+then run:
 ```
 yay -S
 ```
