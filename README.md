@@ -107,17 +107,17 @@ cp .zshrc p10k.zsh ~/
 ### Additional software:
 This is software I usually download on my fresh systems, but it's not a requirement.
 ```
-sudo pacman -S 
+sudo pacman -S bitwarden discord signal-desktop
 ```
 ```
-yay -S
+yay -S freetube-bin corectrl librewolf teams spotify sublime-text-4
 ```
 - bitwarden
 - corectrl
 - discord
 - freetube
 - librewolf
-- microsoft teams
-- signal
+- teams
+- signal-desktop
 - spotify
 - sublime text
