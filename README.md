@@ -12,21 +12,37 @@ Coming soon.
 
 ## Full installation on a fresh Arch Linux system:
 These steps are supposed to be run on a fresh Arch installation to get my current setup. This configuration is not guaranteed to work on your system, remember to make backups!
+### Steps after fresh installation
+Install xorg
+```
+pacman -S xorg
+```
+Install Gnome and i3
+```
+sudo -S gnome i3
+```
+Enable gdm
+```
+systemctl enable gdm
+```
+Add a new user and install sudo
+
 ### From Arch official repositories:
 ```
 sudo pacman -S
 ```
 - git
-- i3
 - cmake
 - kitty
 - picom
 - xrandr
+- htop
 - nitrogen
 - mpv
 - rofi
 - dunst
 - polybar
+- neofetch
 - pulseaudio
 - vim
 - zsh (w/ oh-my-zsh and powerlevel10k theme)
@@ -101,3 +117,4 @@ yay -S
 - microsoft teams
 - signal
 - sublime text
+- corectrl
