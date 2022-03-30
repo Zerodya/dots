@@ -57,7 +57,7 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 ```
 then run:
 ```
-yay -S librewolf nerd-fonts-complete polybar 
+yay -S nerd-fonts-complete polybar 
 ```
 - nerd-fonts-complete
 - polybar
