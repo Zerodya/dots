@@ -25,7 +25,6 @@ Enable gdm
 ```
 systemctl enable gdm
 ```
-Add a new user and install sudo
 
 ### From Arch official repositories:
 ```
