@@ -18,11 +18,11 @@ Install xorg
 pacman -S xorg
 ```
 Install Gnome and i3
-(The Gnome packages I install are: `5 7 8 9 11 12 28 29 30 31 38 48 49 53 58`
-(The i3 packages I install are: `1 3 4 5`)
 ```
 pacman -S gnome i3
 ```
+(The Gnome packages I install are: `5 7 8 9 11 12 28 29 30 31 38 48 49 53 58`, the i3 packages are: `1 3 4 5`)
+
 Enable gdm
 ```
 systemctl enable gdm
