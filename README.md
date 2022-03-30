@@ -19,7 +19,7 @@ pacman -S xorg
 ```
 Install Gnome and i3
 ```
-sudo -S gnome i3
+pacman -S gnome i3
 ```
 Enable gdm
 ```
