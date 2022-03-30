@@ -70,16 +70,14 @@ Clone this repo if you haven't already:
 git clone https://github.com/TheAlphaCeph/dotfiles.git
 cd dotfiles
 ```
-Use my .config files, and set the wallpapaper:
+Use my .config files:
 ```
-cp .config/ ~/
-
-cp Pictures/wallpapers ~/Pictures
+cp -r .config/ ~/
+```
+Set the wallpapaper:
+```
+cp -r Pictures/wallpapers ~/Pictures
 nitrogen ~/Pictures/wallpapers/
-```
-Or do this all at once:
-```
-git clone https://github.com/TheAlphaCeph/dotfiles.git && cd dotfiles && cp .config/ ~/ && cp Pictures/wallpapers ~/Pictures && nitrogen ~/Pictures/wallpapers/
 ```
 
 ### Replicate my zsh theme:
