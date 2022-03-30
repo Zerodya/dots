@@ -59,7 +59,6 @@ then run:
 ```
 yay -S librewolf nerd-fonts-complete polybar 
 ```
-- librewolf
 - nerd-fonts-complete
 - polybar
 
@@ -113,11 +112,12 @@ sudo pacman -S
 ```
 yay -S
 ```
-- freetube
-- spotify
 - bitwarden
+- corectrl
 - discord
+- freetube
+- librewolf
 - microsoft teams
 - signal
+- spotify
 - sublime text
-- corectrl
