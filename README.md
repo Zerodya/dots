@@ -36,6 +36,7 @@ sudo pacman -S cmake dunst firefox git gnome-tweaks gparted htop kitty mpv neofe
 - dunst
 - firefox
 - git
+- gnome-extensions
 - gnome-tweaks
 - gparted
 - htop
