@@ -18,6 +18,8 @@ Install xorg
 pacman -S xorg
 ```
 Install Gnome and i3
+(The Gnome packages I install are: `5 7 8 9 11 12 28 29 30 31 38 48 49 53 58`
+(The i3 packages I install are: `1 3 4 5`)
 ```
 pacman -S gnome i3
 ```
@@ -28,13 +30,14 @@ systemctl enable gdm
 
 ### From Arch official repositories:
 ```
-sudo pacman -S cmake dunst firefox git gnome-tweaks htop kitty mpv neofetch nitrogen picom rofi vim zsh
+sudo pacman -S cmake dunst firefox git gnome-tweaks gparted htop kitty mpv neofetch nitrogen picom rofi vim zsh
 ```
 - cmake
 - dunst
 - firefox
 - git
 - gnome-tweaks
+- gparted
 - htop
 - kitty
 - mpv
