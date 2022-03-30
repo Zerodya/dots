@@ -28,27 +28,29 @@ systemctl enable gdm
 
 ### From Arch official repositories:
 ```
-sudo pacman -S
+sudo pacman -S cmake dunst git gnome-tweaks htop kitty mpv neofetch nitrogen picom polybar pulseaudio rofi vim xrandr zsh
 ```
-- git
 - cmake
-- kitty
-- picom
-- xrandr
-- htop
-- nitrogen
-- mpv
-- rofi
 - dunst
-- polybar
+- git
+- gnome-tweaks
+- htop
+- kitty
+- mpv
 - neofetch
+- nitrogen
+- picom
+- polybar
 - pulseaudio
+- rofi
 - vim
-- zsh (w/ oh-my-zsh and powerlevel10k theme)
+- xrandr
+- zsh
 
 ### From the AUR:
 Note: it is recommended to edit /etc/makepkg.conf following [this guide](https://gist.github.com/beci/c737c89685a667053fe02f986d59ca44) for faster compiling time, or you can just use my file (I also edited `PKGEXT='.pkg.tar'`):
 ```
+git clone https://github.com/TheAlphaCeph/dotfiles.git
 cp dotfiles/etc/makepkg.conf /etc
 ```
 Install `yay`:
@@ -57,7 +59,7 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 ```
 then run:
 ```
-yay -S
+yay -S librewolf nerd-fonts-complete
 ```
 - nerd-fonts-complete
 - librewolf
@@ -65,7 +67,7 @@ yay -S
 ### Replicate my setup:
 ⚠️ **Remember to backup your files first!!**
 
-Clone this repo
+Clone this repo if you haven't already:
 ```
 git clone https://github.com/TheAlphaCeph/dotfiles.git
 cd dotfiles
