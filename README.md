@@ -28,7 +28,7 @@ systemctl enable gdm
 
 ### From Arch official repositories:
 ```
-sudo pacman -S cmake dunst git gnome-tweaks htop kitty mpv neofetch nitrogen picom polybar pulseaudio rofi vim xrandr zsh
+sudo pacman -S cmake dunst git gnome-tweaks htop kitty mpv neofetch nitrogen picom pulseaudio rofi vim zsh
 ```
 - cmake
 - dunst
@@ -40,11 +40,9 @@ sudo pacman -S cmake dunst git gnome-tweaks htop kitty mpv neofetch nitrogen pic
 - neofetch
 - nitrogen
 - picom
-- polybar
 - pulseaudio
 - rofi
 - vim
-- xrandr
 - zsh
 
 ### From the AUR:
@@ -59,10 +57,11 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 ```
 then run:
 ```
-yay -S librewolf nerd-fonts-complete
+yay -S librewolf nerd-fonts-complete polybar 
 ```
-- nerd-fonts-complete
 - librewolf
+- nerd-fonts-complete
+- polybar
 
 ### Replicate my setup:
 ⚠️ **Remember to backup your files first!!**
