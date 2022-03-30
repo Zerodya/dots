@@ -66,18 +66,21 @@ yay -S
 ### Replicate my setup:
 ⚠️ **Remember to backup your files first!!**
 
-Clone this repo, use my .config files, and set the wallpapaper:
+Clone this repo
 ```
 git clone https://github.com/TheAlphaCeph/dotfiles.git
+cd dotfiles
+```
+Use my .config files, and set the wallpapaper:
+```
+cp .config/ ~/
 
-cp dotfiles/.config/* ~/.config
-
-cp dotfiles/Pictures/wallpapers ~/Pictures
+cp Pictures/wallpapers ~/Pictures
 nitrogen ~/Pictures/wallpapers/
 ```
 Or do this all at once:
 ```
-git clone https://github.com/TheAlphaCeph/dotfiles.git && cp dotfiles/.config/* ~/.config && cp dotfiles/Pictures/wallpapers ~/Pictures && nitrogen ~/Pictures/wallpapers/
+git clone https://github.com/TheAlphaCeph/dotfiles.git && cd dotfiles && cp .config/ ~/ && cp Pictures/wallpapers ~/Pictures && nitrogen ~/Pictures/wallpapers/
 ```
 
 ### Replicate my zsh theme:
@@ -99,7 +102,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 Use my `zsh` config, and apply it using `source ~/.zshrc` if needed:
 ```
-cp dotfiles/.zshrc dotfiles/p10k.zsh ~/.
+cp .zshrc p10k.zsh ~/
 ```
 
 ### Additional software:
