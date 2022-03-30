@@ -18,13 +18,17 @@ sudo pacman -S
 ```
 - git
 - i3
+- cmake
+- kitty
 - picom
 - xrandr
 - nitrogen
+- mpv
 - rofi
 - dunst
 - polybar
-- yay
+- pulseaudio
+- vim
 - zsh (w/ oh-my-zsh and powerlevel10k theme)
 
 ### From the AUR:
@@ -41,6 +45,7 @@ then run:
 yay -S
 ```
 - nerd-fonts-complete
+- librewolf
 
 ### Replicate my setup:
 ⚠️ **Remember to backup your files first!!**
@@ -89,3 +94,10 @@ sudo pacman -S
 ```
 yay -S
 ```
+- freetube
+- spotify
+- bitwarden
+- discord
+- microsoft teams
+- signal
+- sublime text
