@@ -30,8 +30,9 @@ systemctl enable gdm
 
 ### From Arch official repositories:
 ```
-sudo pacman -S cmake dunst firefox git gnome-tweaks gparted htop kitty mpv neofetch nitrogen picom rofi vim zsh
+sudo pacman -S btop cmake dunst firefox git gnome-tweaks gparted htop kitty mpv neofetch nitrogen picom rofi vim zsh
 ```
+- btop
 - cmake
 - dunst
 - firefox
