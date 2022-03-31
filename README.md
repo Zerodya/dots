@@ -122,3 +122,6 @@ yay -S freetube-bin corectrl librewolf teams spotify sublime-text-4
 - signal-desktop
 - spotify
 - sublime text
+
+### Desktop and laptop specific settings
+Coming soon.
