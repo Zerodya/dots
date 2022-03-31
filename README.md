@@ -21,7 +21,7 @@ Install Gnome and i3
 ```
 pacman -S gnome i3
 ```
-(The Gnome packages I install are: `5 6 7 8 9 11 12 28 29 30 31 34 38 48 49 53 58`, the i3 packages are: `1 3 4 5`)
+(The Gnome packages I install are: `5 6 7 8 9 11 12 28 29 30 31 34 38 48 49 52 53 58`, the i3 packages are: `1 3 4 5`)
 
 Enable gdm
 ```
