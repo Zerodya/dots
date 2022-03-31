@@ -84,7 +84,7 @@ cp -r Pictures/wallpapers ~/Pictures
 nitrogen ~/Pictures/wallpapers/
 ```
 
-### Replicate my zsh theme:
+### Replicate my zsh config:
 Set `zsh` as the default terminal:
 ```
 chsh -s $(which zsh)
