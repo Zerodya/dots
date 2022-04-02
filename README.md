@@ -115,9 +115,8 @@ sudo pacman -S bitwarden discord signal-desktop
 yay -S freetube-bin corectrl librewolf teams spotify sublime-text-4
 ```
 - bitwarden
-- corectrl
 - discord
-- freetube
+- freetube-bin
 - librewolf
 - teams
 - signal-desktop
@@ -125,4 +124,13 @@ yay -S freetube-bin corectrl librewolf teams spotify sublime-text-4
 - sublime text
 
 ### Desktop and laptop specific settings
-Coming soon.
+Enable multilib repository, uncomment the `[multilib]` section in `/etc/pacman.conf`
+
+**Desktop with dedicated AMD GPU (Gaming programs)**
+```
+sudo pacman -S steam lutris gamemode corectrl
+```
+- steam
+- lutris
+- gamemode
+- corectrl
