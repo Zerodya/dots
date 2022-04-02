@@ -34,7 +34,7 @@ sudo pacman -S btop cmake dunst firefox git gnome-tweaks gparted htop kitty mpv 
 ```
 
 ### From the AUR:
-Note: it is recommended to edit /etc/makepkg.conf following [this guide](https://gist.github.com/beci/c737c89685a667053fe02f986d59ca44) for faster compiling time, or you can just use my file (I also edited `PKGEXT='.pkg.tar'`):
+Note: it is recommended to edit `/etc/makepkg.conf` following [this guide](https://gist.github.com/beci/c737c89685a667053fe02f986d59ca44) for faster compiling time, or you can just use my file (I also edited `PKGEXT='.pkg.tar'`):
 ```
 git clone https://github.com/TheAlphaCeph/dotfiles.git
 sudo cp dotfiles/etc/makepkg.conf /etc
