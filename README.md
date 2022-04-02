@@ -45,7 +45,7 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 ```
 then run:
 ```
-yay -S nerd-fonts-complete polybar 
+yay -S nerd-fonts-complete polybar deadd-notification-center
 ```
 
 ### Replicate my setup:
