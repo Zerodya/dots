@@ -100,7 +100,8 @@ yay -S freetube-bin librewolf teams spotify sublime-text-4
 ### Desktop and laptop specific settings
 Enable multilib repository, uncomment the `[multilib]` section in `/etc/pacman.conf`
 
-**Desktop with dedicated AMD GPU (Gaming programs)**
+**Desktop with dedicated AMD GPU**
+Gaming software:
 ```
 sudo pacman -S steam lutris gamemode corectrl
 ```
