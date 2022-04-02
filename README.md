@@ -32,22 +32,6 @@ systemctl enable gdm
 ```
 sudo pacman -S btop cmake dunst firefox git gnome-tweaks gparted htop kitty mpv neofetch nitrogen picom rofi vim zsh
 ```
-- btop
-- cmake
-- dunst
-- firefox
-- git
-- gnome-tweaks
-- gparted
-- htop
-- kitty
-- mpv
-- neofetch
-- nitrogen
-- picom
-- rofi
-- vim
-- zsh
 
 ### From the AUR:
 Note: it is recommended to edit /etc/makepkg.conf following [this guide](https://gist.github.com/beci/c737c89685a667053fe02f986d59ca44) for faster compiling time, or you can just use my file (I also edited `PKGEXT='.pkg.tar'`):
@@ -63,8 +47,6 @@ then run:
 ```
 yay -S nerd-fonts-complete polybar 
 ```
-- nerd-fonts-complete
-- polybar
 
 ### Replicate my setup:
 ⚠️ **Remember to backup your files first!!**
@@ -107,21 +89,13 @@ cp .zshrc p10k.zsh ~/
 ```
 
 ### Additional software:
-This is software I usually download on my fresh systems, but it's not a requirement.
+This is software I usually download on my fresh systems. It's not a requirement.
 ```
 sudo pacman -S bitwarden discord signal-desktop
 ```
 ```
 yay -S freetube-bin corectrl librewolf teams spotify sublime-text-4
 ```
-- bitwarden
-- discord
-- freetube-bin
-- librewolf
-- teams
-- signal-desktop
-- spotify
-- sublime text
 
 ### Desktop and laptop specific settings
 Enable multilib repository, uncomment the `[multilib]` section in `/etc/pacman.conf`
@@ -130,7 +104,3 @@ Enable multilib repository, uncomment the `[multilib]` section in `/etc/pacman.c
 ```
 sudo pacman -S steam lutris gamemode corectrl
 ```
-- steam
-- lutris
-- gamemode
-- corectrl
