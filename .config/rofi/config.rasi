@@ -2,7 +2,7 @@ configuration {
   display-drun: " ";
   display-window: "Windows:";
   drun-display-format: "{icon} {name}";
-  font: "JetBrainsMono Nerd Font Medium 10";
+  font: "JetBrainsMono Nerd Font Medium 11";
   // font: "Cantarell:style=Regular 12";
   show-icons: true;
   modi: "window,run,drun";
@@ -11,39 +11,37 @@ configuration {
 @theme "/dev/null"
 
 * {
-  bg: #300606;
-  bg-alt: #bc1818;
+  red-dark: #300606;
+  red: #bc1818;
+  black: #111111;
+  white: #FFFFFF;
+  cyan: #4cdbdb;
 
-  fg: #FFFFFF;
-  fg-alt: #FFFFFF;
-
-  background-color: @bg;
-  
-  border: 0;
-  margin: 0;
-  padding: 0;
-  spacing: 0;
+  background-color: @black;
 }
 
 window {
-  location: north west;
-  y-offset: 35px;
-  x-offset: 10px;
+  location: west;
+  anchor: west;
+  x-offset: -2px;
   border: 2px;
-  border-radius: 16;
-  border-color: @bg-alt;
+  border-radius: 20;
+  border-color: @cyan;
   width: 20%;
 }
 
 element {
+  background-color: @red-dark;
   padding: 10px;
-  text-color: @fg-alt;
+  //border: 1px;
+  border-color: @cyan;
+  text-color: @cyan;
   border-radius: 50%;
 }
 
 element selected {
-  background-color: @bg-alt;
-  text-color: @fg;
+  background-color: @red;
+  text-color: @white;
 }
 
 element-text {
@@ -58,14 +56,12 @@ element-icon {
 }
 
 entry {
-  //background-color: @bg-alt;
   padding: 2px;
-  text-color: @fg;
+  text-color: @white;
 }
 
 inputbar {
-  // children: [prompt, entry];
-  border-color: @bg-alt;
+  border-color: @cyan;
   padding: 5px;
   border-radius: 50%;
   border-spacing: 5px 0 0 0;
@@ -76,21 +72,22 @@ inputbar {
 
 listview {
   padding: 0px 5px 0px 5px;
-  background-color: @bg;
+  spacing: 0.6em;
+  background-color: @black;
   columns: 1;
   lines: 10;
 }
 
 mainbox {
-  background-color: @bg;
+  background-color: @black;
   children: [inputbar, listview];
 }
 
 prompt {
-  background-color: @bg-alt;
+  background-color: @red;
   enabled: true;
   padding: 5px;
-  text-color: @fg;
+  text-color: @white;
   border-radius: 50%;
 }
 
