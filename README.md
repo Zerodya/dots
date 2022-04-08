@@ -19,7 +19,7 @@ pacman -S xorg
 ```
 Install Gnome and i3
 ```
-pacman -S gnome i3
+pacman -S gnome i3 firefox git
 ```
 - (The Gnome packages I install are: `5 6 7 8 9 11 12 28 29 30 31 34 38 48 49 52 53 58`, the i3 packages are: `1 3 4 5`)
 
@@ -28,16 +28,20 @@ Enable gdm
 systemctl enable gdm
 ```
 
+Clone thi repo into your home directory:
+```
+cd ~/ && git clone https://github.com/TheAlphaCeph/dotfiles.git
+```
+
 ### From Arch official repositories:
 ```
-sudo pacman -S btop cmake dunst firefox git gnome-tweaks gparted htop kitty mpv neofetch nitrogen picom rofi vim zsh
+sudo pacman -S btop cmake dunst gnome-tweaks gparted htop kitty mpv neofetch nitrogen picom rofi vim zsh
 ```
 
 ### From Arch User Repository (AUR):
 Note: it is recommended to edit `/etc/makepkg.conf` following [this guide](https://gist.github.com/beci/c737c89685a667053fe02f986d59ca44) for faster compiling time, or you can just use my file (I also edited `PKGEXT='.pkg.tar'`):
 ```
-git clone https://github.com/TheAlphaCeph/dotfiles.git
-sudo cp dotfiles/etc/makepkg.conf /etc
+sudo cp ~/dotfiles//etc/makepkg.conf /etc
 ```
 Install `yay`:
 ```
@@ -51,18 +55,13 @@ yay -S nerd-fonts-complete polybar deadd-notification-center
 ### Replicate my setup:
 ⚠️ **Remember to backup your files first!!**
 
-Clone this repo if you haven't already:
-```
-git clone https://github.com/TheAlphaCeph/dotfiles.git
-cd dotfiles
-```
 Use my .config files:
 ```
-cp -r .config/ ~/
+cp -r ~/dotfiles/.config/ ~/
 ```
 Set the wallpapaper:
 ```
-cp -r Pictures/wallpapers ~/Pictures
+cp -r ~/dotfiles/Pictures/wallpapers ~/Pictures
 nitrogen ~/Pictures/wallpapers/
 ```
 
@@ -85,6 +84,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 Use my `zsh` config, and apply it using `source ~/.zshrc` if needed:
 ```
+cd ~/dotfiles/
 cp .zshrc .p10k.zsh ~/
 ```
 
