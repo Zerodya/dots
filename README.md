@@ -85,7 +85,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 Use my `zsh` config, and apply it using `source ~/.zshrc` if needed:
 ```
-cp .zshrc p10k.zsh ~/
+cp .zshrc .p10k.zsh ~/
 ```
 
 ### Additional software:
