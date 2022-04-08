@@ -106,3 +106,8 @@ Gaming software:
 ```
 sudo pacman -S steam lutris gamemode corectrl
 ```
+**Laptop**
+Battery:
+```
+sudo pacman -S ltp
+```
