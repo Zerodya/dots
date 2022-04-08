@@ -28,7 +28,7 @@ Enable gdm
 systemctl enable gdm
 ```
 
-Clone thi repo into your home directory:
+Clone this repo into your home directory:
 ```
 cd ~/ && git clone https://github.com/TheAlphaCeph/dotfiles.git
 ```
