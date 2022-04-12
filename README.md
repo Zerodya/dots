@@ -94,7 +94,7 @@ This is software I usually download on my fresh systems. It's not a requirement.
 sudo pacman -S bitwarden discord signal-desktop
 ```
 ```
-yay -S freetube-bin librewolf teams spotify sublime-text-4
+yay -S freetube-bin teams spotify sublime-text-4 librewolf
 ```
 
 ### Desktop and laptop specific settings
@@ -117,4 +117,8 @@ systemctl enable tlp.service
 systemctl mask systemd-rfkill.service
 systemctl mask systemd-rfkill.socket
 sudo tlp start
+```
+Brightess:
+```
+sudo pacman -S brightnessctl
 ```
