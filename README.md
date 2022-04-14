@@ -52,6 +52,13 @@ then run:
 yay -S nerd-fonts-complete polybar deadd-notification-center
 ```
 
+### Gnome specific
+**Theme:** [Colloid Dark](https://github.com/vinceliuice/Colloid-gtk-theme)
+**Icons:** [Colloid](https://github.com/vinceliuice/Colloid-icon-theme)
+
+### i3-gaps specific
+
+
 ### Replicate my setup:
 ⚠️ **Remember to backup your files first!!**
 
