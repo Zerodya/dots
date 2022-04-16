@@ -6,7 +6,11 @@ THIS REPO IS WORK IN PROGRESS
 ### Gnome specific
 - Theme: [Colloid Dark](https://github.com/vinceliuice/Colloid-gtk-theme)
 - Icons: [Colloid](https://github.com/vinceliuice/Colloid-icon-theme)
-- Extensions:
+<details>
+  <summary>Extensions</summary>
+  
+  
+</details>
 
 ### i3-gaps specific
 - Polybar
@@ -30,13 +34,13 @@ Install Gnome and i3
 pacman -S gnome i3 firefox git
 ```
 <details>
-  <summary>Gnome packages I install:</summary>
+  <summary>Gnome packages I install</summary>
   
   5-8 11 12 26-28 32 36 46 47 50 51 56
 </details>
 
 <details>
-  <summary>i3 packages I install:</summary>
+  <summary>i3 packages I install</summary>
   
   1 3 4 5
 </details>
@@ -52,7 +56,7 @@ cd ~/ && git clone https://github.com/TheAlphaCeph/dotfiles.git
 ```
 
 <details>
-  <summary>My software:</summary>
+  <summary>My software</summary>
   
   ### From Arch official repositories:
   ```
