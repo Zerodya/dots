@@ -9,24 +9,24 @@ THIS REPO IS WORK IN PROGRESS
 <details>
   <summary>Extensions</summary>
   
-  https://extensions.gnome.org/extension/3499/application-volume-mixer/
-  https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/
-  https://extensions.gnome.org/extension/3210/compiz-windows-effect/
-  https://extensions.gnome.org/extension/4245/gesture-improvements/
-  https://extensions.gnome.org/extension/4158/gnome-40-ui-improvements/
-  https://extensions.gnome.org/extension/1319/gsconnect/
-  https://extensions.gnome.org/extension/4099/no-overview/
-  https://extensions.gnome.org/extension/4472/spotify-tray/
-  https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/
-  https://extensions.gnome.org/extension/1446/transparent-window-moving/
-  https://extensions.gnome.org/extension/2890/tray-icons-reloaded/
-  https://extensions.gnome.org/extension/19/user-themes/
-  https://extensions.gnome.org/extension/3851/workspaces-bar/
+  - [Application Volume Mixer](https://extensions.gnome.org/extension/3499/application-volume-mixer/)
+  - [Archlinux updates indicator](https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/)
+  - [Compiz window effect](https://extensions.gnome.org/extension/3210/compiz-windows-effect/)
+  - [Gesture improvements](https://extensions.gnome.org/extension/4245/gesture-improvements/) (laptop only)
+  - [Gnome 40 UI Improvements](https://extensions.gnome.org/extension/4158/gnome-40-ui-improvements/)
+  - [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)
+  - [No overview at startup](https://extensions.gnome.org/extension/4099/no-overview/)
+  - [Spotify Tray](https://extensions.gnome.org/extension/4472/spotify-tray/)
+  - [Transparent top bar adjustable transparency](https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/)
+  - [Transparent window moving](https://extensions.gnome.org/extension/1446/transparent-window-moving/)
+  - [Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/)
+  - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
+  - [Workspaces Bar](https://extensions.gnome.org/extension/3851/workspaces-bar/)
     
-  Not working on Gnome 42 yet:
-  https://extensions.gnome.org/extension/3733/tiling-assistant/
-  https://extensions.gnome.org/extension/4144/vertical-overview/
-  https://extensions.gnome.org/extension/307/dash-to-dock/
+  (Not working in Gnome 42 yet)
+  - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+  - [Tiling assistant](https://extensions.gnome.org/extension/3733/tiling-assistant/)
+  - [Vertical Overview](https://extensions.gnome.org/extension/4144/vertical-overview/)
 </details>
 
 ### i3-gaps specific
