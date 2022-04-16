@@ -41,6 +41,7 @@ Videos coming soon.
 ***
 ## Replicate my setup on a fresh Arch Linux installation: 
 This is mostly just for myself so that I can easily get my system back everytime I break my Arch system (happens a lot).
+I will probably make a script to automate the whole process in the future.
 ### Steps after fresh installation
 Install xorg
 ```
