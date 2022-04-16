@@ -1,5 +1,4 @@
 # My dotfiles
-***
 
 ## About:
 THIS REPO IS WORK IN PROGRESS
