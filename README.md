@@ -17,7 +17,7 @@ THIS REPO IS WORK IN PROGRESS
 - [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)
 - [Gnome 4x UI Improvements](https://extensions.gnome.org/extension/4158/gnome-40-ui-improvements/)
 - [Media Control](https://extensions.gnome.org/extension/4470/media-controls/) (Not yet on Gnome 42. Use [spotify-tray](https://extensions.gnome.org/extension/4472/spotify-tray/) instead)
-- [Simply Workspaces](https://extensions.gnome.org/extension/4343/simply-workspaces/) (Not yet on Gnome 42. Use [Workspaces Bar](https://extensions.gnome.org/extension/3851/workspaces-bar/) instead)
+- [Workspaces Bar](https://extensions.gnome.org/extension/3851/workspaces-bar/)
 - [Tiling assistant](https://extensions.gnome.org/extension/3733/tiling-assistant/) (Not yet on Gnome 42)
 - [Transparent window moving](https://extensions.gnome.org/extension/1446/transparent-window-moving/)
 - [Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/)
