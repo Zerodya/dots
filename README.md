@@ -132,7 +132,7 @@ cp .zshrc .p10k.zsh ~/
 ***
 ### Other:
 <details>
-  <summary>Software I usually download</summary>
+  <summary>More software I usually download</summary>
   
   ```
   sudo pacman -S bitwarden discord flameshot libreoffice-fresh qbittorrent vlc
