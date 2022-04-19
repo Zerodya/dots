@@ -135,7 +135,7 @@ cp .zshrc .p10k.zsh ~/
   <summary>Software I usually download</summary>
   
   ```
-  sudo pacman -S bitwarden discord libreoffice-fresh qbittorrent signal-desktop-beta-bin timeshift vlc
+  sudo pacman -S bitwarden discord flameshot libreoffice-fresh qbittorrent signal-desktop-beta-bin timeshift vlc
   ```
   ```
   yay -S freetube-bin librewolf-bin onlyoffice-bin spotify sublime-text-4 teams
@@ -149,7 +149,7 @@ cp .zshrc .p10k.zsh ~/
   sudo pacman -S corectrl gamemode lutris steam
   ```
   ```
-  yay -S rpcs3-git yuzu-early-access
+  yay -S goverlay-bin lib32-mangohud mangohud rpcs3-git yuzu-early-access
   ```
 </details>
 
