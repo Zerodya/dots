@@ -146,10 +146,10 @@ cp .zshrc .p10k.zsh ~/
   <summary>Gaming additional software</summary>
   
   ```
-  sudo pacman -S corectrl gamemode lutris steam
+  sudo pacman -S gamemode lutris steam
   ```
   ```
-  yay -S goverlay-bin lib32-mangohud mangohud rpcs3-git yuzu-early-access
+  yay -S corectrl goverlay-bin lib32-mangohud mangohud rpcs3-git yuzu-early-access
   ```
 </details>
 
