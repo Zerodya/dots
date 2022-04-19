@@ -89,7 +89,7 @@ cd ~/ && git clone https://github.com/TheAlphaCeph/dotfiles.git
   ```
   then run:
   ```
-  yay -S deadd-notification-center-git nerd-fonts-complete polybar
+  yay -S chrome-gnome-shell deadd-notification-center-git nerd-fonts-complete polybar
   ```
 </details>
 
