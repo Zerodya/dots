@@ -75,7 +75,7 @@ cd ~/ && git clone https://github.com/TheAlphaCeph/dotfiles.git
   
   ### From Arch official repositories:
   ```
-  sudo pacman -S btop cmake dunst gnome-tweaks gparted htop kitty mpv neofetch nitrogen picom rofi vim zsh
+  sudo pacman -S btop cmake dunst gnome-tweaks gparted htop kitty mpv neofetch nitrogen picom rofi rsync vim zsh
   ```
   
   ### From Arch User Repository (AUR):
