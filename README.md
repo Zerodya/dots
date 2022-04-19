@@ -89,7 +89,7 @@ cd ~/ && git clone https://github.com/TheAlphaCeph/dotfiles.git
   ```
   then run:
   ```
-  yay -S nerd-fonts-complete polybar deadd-notification-center
+  yay -S deadd-notification-center nerd-fonts-complete polybar
   ```
 </details>
 
@@ -135,23 +135,26 @@ cp .zshrc .p10k.zsh ~/
   <summary>Software I usually download</summary>
   
   ```
-  sudo pacman -S bitwarden discord signal-desktop
+  sudo pacman -S bitwarden discord libreoffice-fresh qbittorrent signal-desktop-beta-bin timeshift vlc
   ```
   ```
-  yay -S freetube-bin teams spotify sublime-text-4 librewolf
+  yay -S freetube-bin librewolf-bin onlyoffice-bin spotify sublime-text-4 teams
   ```
 </details>
 
 <details>
-  <summary>Gaming desktop additional setup</summary>
+  <summary>Gaming additional software</summary>
   
   ```
-  sudo pacman -S steam lutris gamemode corectrl
+  sudo pacman -S corectrl gamemode lutris steam
+  ```
+  ```
+  yay -S rpcs3-git yuzu-early-access
   ```
 </details>
 
 <details>
-  <summary>Laptop additional setup</summary>
+  <summary>Laptop additional software</summary>
   
   Battery:
   ```
