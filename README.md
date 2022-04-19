@@ -135,10 +135,10 @@ cp .zshrc .p10k.zsh ~/
   <summary>Software I usually download</summary>
   
   ```
-  sudo pacman -S bitwarden discord flameshot libreoffice-fresh qbittorrent signal-desktop-beta-bin timeshift vlc
+  sudo pacman -S bitwarden discord flameshot libreoffice-fresh qbittorrent vlc
   ```
   ```
-  yay -S freetube-bin librewolf-bin onlyoffice-bin spotify sublime-text-4 teams
+  yay -S freetube-bin librewolf-bin onlyoffice-bin signal-desktop-beta-bin spotify sublime-text-4 teams timeshift
   ```
 </details>
 
