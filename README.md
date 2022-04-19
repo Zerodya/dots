@@ -81,7 +81,7 @@ cd ~/ && git clone https://github.com/TheAlphaCeph/dotfiles.git
   ### From Arch User Repository (AUR):
   Note: it is recommended to edit `/etc/makepkg.conf` following [this guide](https://gist.github.com/beci/c737c89685a667053fe02f986d59ca44) for faster compiling time, or you can just use my file (I also edited `PKGEXT='.pkg.tar'`):
   ```
-  sudo cp ~/dotfiles//etc/makepkg.conf /etc
+  sudo cp ~/dotfiles/etc/makepkg.conf /etc
   ```
   Install `yay`:
   ```
