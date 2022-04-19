@@ -51,7 +51,7 @@ pacman -S gnome i3 firefox git
 <details>
   <summary>Gnome packages I install</summary>
   
-  5-8 11 12 26-28 32 36 46 47 50 51 56
+  3 5-8 11 12 26-28 32 36 46 47 50 51 56
 </details>
 
 <details>
