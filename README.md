@@ -3,7 +3,7 @@
 ## About:
 THIS REPO IS WORK IN PROGRESS
 - Terminal: Kitty
-- Terminal Theme: (powerlevel10k)[https://github.com/romkatv/powerlevel10k]
+- Terminal Theme: [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 ### Gnome specific
 - Theme: [Colloid Dark](https://github.com/vinceliuice/Colloid-gtk-theme)
 - Icons: [Colloid](https://github.com/vinceliuice/Colloid-icon-theme)
