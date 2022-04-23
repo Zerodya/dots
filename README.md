@@ -177,4 +177,4 @@ cp .zshrc ~/
 
 Q: Why the hell would you use both Gnome and i3 on the same computer?
 
-A: ~~Because I can.~~ I use Gnome for gaming and i3 for productivity. This way I can separate the two and I get less distracted when I need to be productive.
+A: ~~Because I can.~~ I use Gnome for gaming and i3 for productivity. This way I can separate the two and I get less distracted when I need to be productive (except when I get the urge to rice it, *sigh*)..
