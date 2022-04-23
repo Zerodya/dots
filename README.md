@@ -1,9 +1,6 @@
 # My dotfiles
 
 **THIS REPO IS WORK IN PROGRESS**
-- Terminal: Kitty
-- Shell: Zsh
-- Zsh Theme: [spaceship](https://github.com/spaceship-prompt/spaceship-prompt)
 <details>
   <summary>Theme: Catppuccin</summary>
   
@@ -14,6 +11,10 @@
   - [btop](https://github.com/catppuccin/btop)
   - [rofi](https://github.com/catppuccin/rofi)
 </details>
+
+- Terminal: Kitty
+- Shell: Zsh
+- Zsh Theme: [spaceship](https://github.com/spaceship-prompt/spaceship-prompt)
 
 # Gnome
 
