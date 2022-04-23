@@ -171,3 +171,8 @@ cp .zshrc ~/
   sudo pacman -S brightnessctl
   ```
 </details>
+
+***
+**The FAQ nobody asked for:**
+Q: Why do you use both Gnome and i3 on the same computer?
+A: ~~Because I can~~ I use Gnome for gaming and i3 for productivity. This way I can separate the two and I get less distracted when I need to be productive.
