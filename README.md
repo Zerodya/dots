@@ -3,7 +3,18 @@
 ## About:
 THIS REPO IS WORK IN PROGRESS
 - Terminal: Kitty
-- Terminal Theme: [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+- Shell: Zsh
+- Zsh Theme: [spaceship](https://github.com/spaceship-prompt/spaceship-prompt)
+<details>
+  <summary>Theme: catppuccin</summary>
+  
+  - [Firefox/Librewolf](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-dark-sky/)
+  - [Sublime Text](https://github.com/catppuccin/sublime-text)
+  - [Kitty](https://github.com/catppuccin/kitty)
+  - [Dark Reader](https://github.com/catppuccin/dark-reader)
+  - [btop](https://github.com/catppuccin/btop)
+  - [rofi](https://github.com/catppuccin/rofi)
+</details>
 ### Gnome specific
 - Theme: [Colloid Dark](https://github.com/vinceliuice/Colloid-gtk-theme)
 - Icons: [Colloid](https://github.com/vinceliuice/Colloid-icon-theme)
@@ -25,11 +36,16 @@ THIS REPO IS WORK IN PROGRESS
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - [Vertical Overview](https://extensions.gnome.org/extension/4144/vertical-overview/) (Not yet on Gnome 42)
 
+Shortcuts: Coming soon.
+
 </details>
 
 ### i3-gaps specific
-- Polybar
-- Rofi
+- Bar: Polybar
+- Launcher: Rofi
+- Compositor: Picom (ibhagwan's fork)
+
+Shortcuts: Coming soon.
 ***
 ## Screenshots:
 Screenshots coming soon.
@@ -72,11 +88,11 @@ cd ~/ && git clone https://github.com/TheAlphaCeph/dotfiles.git
 ```
 
 <details>
-  <summary>My software</summary>
+  <summary>Main packages and dependencies</summary>
   
   ### From Arch official repositories:
   ```
-  sudo pacman -S btop cmake gnome-tweaks gparted htop kitty mpv neofetch nitrogen picom rofi rsync vim zsh
+  sudo pacman -S btop cmake dbus dunst gnome-tweaks gparted kitty mpv neofetch nitrogen pfetch playerctl rofi rsync vim zsh
   ```
   
   ### From Arch User Repository (AUR):
@@ -90,7 +106,7 @@ cd ~/ && git clone https://github.com/TheAlphaCeph/dotfiles.git
   ```
   then run:
   ```
-  yay -S chrome-gnome-shell deadd-notification-center-git lf nerd-fonts-complete polybar
+  yay -S chrome-gnome-shell lf nerd-fonts-complete picom-ibhagwan-git polybar 
   ```
 </details>
 
@@ -117,10 +133,14 @@ Install `oh-my-zsh`:
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-Install `powerlevel10k` theme, and the plugins `zsh-autosuggestions`,`zsh-syntax-highlighting`:
+Install `spaceship` theme:
 ```
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+```
+And the plugins `zsh-autosuggestions`,`zsh-syntax-highlighting`:
+```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
