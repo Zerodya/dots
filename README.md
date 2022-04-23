@@ -76,7 +76,7 @@ cd ~/ && git clone https://github.com/TheAlphaCeph/dotfiles.git
   
   ### From Arch official repositories:
   ```
-  sudo pacman -S btop cmake dunst gnome-tweaks gparted htop kitty mpv neofetch nitrogen picom rofi rsync vim zsh
+  sudo pacman -S btop cmake gnome-tweaks gparted htop kitty mpv neofetch nitrogen picom rofi rsync vim zsh
   ```
   
   ### From Arch User Repository (AUR):
@@ -90,7 +90,7 @@ cd ~/ && git clone https://github.com/TheAlphaCeph/dotfiles.git
   ```
   then run:
   ```
-  yay -S chrome-gnome-shell deadd-notification-center-git nerd-fonts-complete polybar
+  yay -S chrome-gnome-shell deadd-notification-center-git lf nerd-fonts-complete polybar
   ```
 </details>
 
