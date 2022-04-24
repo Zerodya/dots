@@ -7,6 +7,12 @@ exec_always --no-startup-id bash $HOME/.config/polybar/launch.sh --forest
 exec --no-startup-id corectrl
 exec --no-startup-id signal
 
+# Restore GNOME's settings
+exec --no-startup-id /usr/libexec/gnome-settings-daemon-localeexec
+
+# Fix a bug in gnome-settings-daemon: http://feeding.cloud.geek.nz/posts/creating-a-modern-tiling-desktop-environment-using-i3/
+exec --no-startup-id dconf write /org/gnome/settings-daemon/plugins/cursor/active false
+
 # Remove windows borders
 for_window [class=".*"] border pixel 0
 
@@ -129,8 +135,8 @@ set $ws10 "10"
 
 # Assigned workspaces
 assign [class="librewolf"] $ws2
-for_window [class="spotify"] move to workspace $ws4
-assign [class="freetube"] $ws5
+for_window [class="Spotify"] move to workspace $ws4
+assign [class="FreeTube"] $ws5
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
