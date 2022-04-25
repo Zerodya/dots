@@ -98,9 +98,10 @@ Clone this repo and move into it:
 git clone https://github.com/TheAlphaCeph/dotfiles.git
 cd dotfiles
 ```
-Use my .config files:
+Copy my .config files:
 ```
 cp -r .config/ ~/
+cp -r .local/ ~/
 ```
 Set the wallpapaper in i3:
 ```
