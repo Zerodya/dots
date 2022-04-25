@@ -10,6 +10,7 @@
   - [Dark Reader](https://github.com/catppuccin/dark-reader)
   - [btop](https://github.com/catppuccin/btop)
   - [rofi](https://github.com/catppuccin/rofi)
+  - [Mouse cursors](https://github.com/catppuccin/cursors)
 </details>
 
 - Terminal: Kitty
@@ -18,7 +19,7 @@
 
 # Gnome
 
-- Theme: [Colloid Dark](https://github.com/vinceliuice/Colloid-gtk-theme)
+- GTK Theme: [Colloid Dark](https://github.com/vinceliuice/Colloid-gtk-theme)
 - Icons: [Colloid](https://github.com/vinceliuice/Colloid-icon-theme)
 <details>
   <summary>Extensions</summary>
@@ -43,9 +44,10 @@ Shortcuts coming soon.
 Screenshots coming soon.
 
 # i3-gaps
-- Bar: Polybar
+- Bar: Polybar (Modified version of [polybar-themes's Forest](https://github.com/adi1090x/polybar-themes#forest))
 - Launcher: Rofi
 - Compositor: Picom (ibhagwan's fork)
+- GTK Theme: [Catppuccin](https://github.com/catppuccin/gtk) (by using `lxappearance`)
 
 Shortcuts coming soon.
 Screenshots coming soon.
@@ -90,7 +92,7 @@ sudo pacman -S btop cmake dbus dunst gnome-tweaks gparted kitty mpv neofetch nit
   ```
 
 ***
-### Replicate my configs:
+### Replicate my configuration:
 Clone this repo and move into it:
 ```
 git clone https://github.com/TheAlphaCeph/dotfiles.git
