@@ -5,7 +5,7 @@ exec --no-startup-id setxkbmap us,it -option 'grp:alt_shift_toggle'
 exec_always --no-startup-id bash $HOME/.config/polybar/launch.sh --forest
 ## Additional software
 exec --no-startup-id corectrl
-exec --no-startup-id signal
+exec --no-startup-id signal-desktop-beta
 
 # Restore GNOME's settings
 exec --no-startup-id /usr/libexec/gnome-settings-daemon-localeexec
