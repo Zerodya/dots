@@ -81,9 +81,9 @@ sudo pacman -S btop cmake dbus dunst gnome-tweaks gparted kitty mpv neofetch nit
   ```
   sudo cp ~/dotfiles/etc/makepkg.conf /etc
   ```
-  Install `yay`:
+  Install an AUR helper such as `yay`:
   ```
-  sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+  git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
   ```
 </details>
   
