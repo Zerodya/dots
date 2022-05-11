@@ -17,7 +17,7 @@
 - Shell: Zsh
 - Zsh Theme: [spaceship](https://github.com/spaceship-prompt/spaceship-prompt)
 
-# Gnome
+# ~ Gnome
 
 - GTK Theme: [Colloid Dark](https://github.com/vinceliuice/Colloid-gtk-theme)
 - Icons: [Colloid](https://github.com/vinceliuice/Colloid-icon-theme)
@@ -43,7 +43,7 @@
 Shortcuts coming soon.
 Screenshots coming soon.
 
-# i3-gaps
+# ~ i3-gaps
 - Bar: Polybar (Modified version of [polybar-themes's Forest](https://github.com/adi1090x/polybar-themes#forest))
 - Launcher: Rofi
 - Compositor: Picom (ibhagwan's fork)
