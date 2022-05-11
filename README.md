@@ -31,13 +31,13 @@
 - [Dash to panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
 - [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)
 - [Gnome 4x UI Improvements](https://extensions.gnome.org/extension/4158/gnome-40-ui-improvements/)
-- [Media Control](https://extensions.gnome.org/extension/4470/media-controls/) (Not yet on Gnome 42. Use [spotify-tray](https://extensions.gnome.org/extension/4472/spotify-tray/) instead)
+- [Media Control](https://github.com/programmer-pony/media-controls)
 - [Workspaces Bar](https://extensions.gnome.org/extension/3851/workspaces-bar/)
 - [Tiling assistant](https://extensions.gnome.org/extension/3733/tiling-assistant/)
 - [Transparent window moving](https://extensions.gnome.org/extension/1446/transparent-window-moving/)
 - [Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/)
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
-- [Vertical Overview](https://extensions.gnome.org/extension/4144/vertical-overview/) (Not yet on Gnome 42)
+- [Vertical Overview](https://extensions.gnome.org/extension/4144/vertical-overview/)
 </details>
 
 Shortcuts coming soon.
