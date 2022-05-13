@@ -46,7 +46,7 @@ Screenshots coming soon.
 # ~ i3-gaps
 - Bar: Polybar (Modified version of [polybar-themes's Forest](https://github.com/adi1090x/polybar-themes#forest))
 - Launcher: Rofi
-- Compositor: Picom (ibhagwan's fork)
+- Compositor: Picom ([ibhagwan's fork](https://github.com/ibhagwan/picom))
 - GTK Theme: [Catppuccin](https://github.com/catppuccin/gtk) (by using `lxappearance`)
 
 Shortcuts coming soon.
