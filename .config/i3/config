@@ -1,5 +1,5 @@
 # Run at startup
-exec --no-startup-id picom
+exec_always --no-startup-id picom --experimental-backends
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id setxkbmap us,it -option 'grp:alt_shift_toggle'
 exec_always --no-startup-id bash $HOME/.config/polybar/launch.sh --forest
@@ -14,11 +14,19 @@ exec --no-startup-id /usr/libexec/gnome-settings-daemon-localeexec
 exec --no-startup-id dconf write /org/gnome/settings-daemon/plugins/cursor/active false
 
 # Remove windows borders
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 2
 
 # Gaps
-gaps inner 7
-gaps outer 0
+gaps inner 10
+gaps outer -5
+
+# Colors
+#class                  border  backgr. text    indicator child_border
+client.focused          #4c7899 #285577 #ffffff #F28FAD   #F28FAD
+client.focused_inactive #333333 #5f676a #ffffff #89DCEB   #89DCEB
+client.unfocused        #333333 #222222 #888888 #89DCEB   #89DCEB
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 # Use Super key as $mod key
 set $mod Mod4
@@ -135,6 +143,8 @@ set $ws10 "10"
 
 # Assigned workspaces
 assign [class="librewolf"] $ws2
+for_window [class="discord"] move to workspace $ws3
+for_window [class="Signal Beta"] move to workspace $ws3
 for_window [class="Spotify"] move to workspace $ws4
 assign [class="FreeTube"] $ws5
 
@@ -149,6 +159,9 @@ bindsym $mod+7 workspace number $ws7
 bindsym $mod+8 workspace number $ws8
 bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
+
+# switch to last active workspace
+bindsym $mod1+Tab workspace back_and_forth
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1
