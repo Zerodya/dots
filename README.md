@@ -46,7 +46,7 @@ Screenshots coming soon.
 # ~ i3-gaps
 - Bar: Polybar (Modified version of [polybar-themes's Forest](https://github.com/adi1090x/polybar-themes#forest))
 - Launcher: Rofi
-- Compositor: Picom ([ibhagwan's fork](https://github.com/ibhagwan/picom))
+- Compositor: Picom
 - GTK Theme: [Catppuccin](https://github.com/catppuccin/gtk) (by using `lxappearance`)
 
 Shortcuts coming soon.
@@ -77,10 +77,8 @@ sudo pacman -S btop cmake dbus dunst gnome-tweaks gparted kitty mpv neofetch nit
 <details>
   <summary>AUR recommendations</summary>
     
-   It is recommended to edit `/etc/makepkg.conf` following [this guide](https://gist.github.com/beci/c737c89685a667053fe02f986d59ca44) for faster compiling time, or you can just use my file (I also edited `PKGEXT='.pkg.tar'`):
-  ```
-  sudo cp ~/dotfiles/etc/makepkg.conf /etc
-  ```
+  Edit `/etc/makepkg.conf` following [this guide](https://gist.github.com/beci/c737c89685a667053fe02f986d59ca44) for faster compiling time.
+  
   Install an AUR helper such as `yay`:
   ```
   git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
@@ -88,7 +86,7 @@ sudo pacman -S btop cmake dbus dunst gnome-tweaks gparted kitty mpv neofetch nit
 </details>
   
   ```
-  yay -S chrome-gnome-shell lf nerd-fonts-complete picom-ibhagwan-git polybar 
+  yay -S cava chrome-gnome-shell lf nerd-fonts-complete picom pipes.sh polybar 
   ```
 
 ***
