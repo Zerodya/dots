@@ -1,10 +1,10 @@
 configuration{
     modi: "run,drun,window";
     lines: 5;
-    font: "JetBrainsMono Nerd Font 14";
+    font: "JetBrainsMono Nerd Font 10";
     show-icons: true;
     icon-theme: "Oranchelo";
-    terminal: "st";
+    terminal: "kitty";
     drun-display-format: "{icon} {name}";
     location: 0;
     disable-history: false;

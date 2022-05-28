@@ -13,10 +13,16 @@ if ! updates_aur=$(yay -Qum 2> /dev/null | wc -l); then
     updates_aur=0
 fi
 
-updates=$((updates_arch + updates_aur))
+archicon="%{F#96CDFB}%{F-}"
 
-if [ "$updates" -gt 0 ]; then
-    echo "%{F#96CDFB} %{F-}$updates"
+if [ "$updates_arch" -gt 0 ] && [ "$updates_aur" -gt 0 ]; then
+    echo "$updates_arch $archicon $updates_aur"
+elif [ "$updates_arch" -gt 0 ] && [ "$updates_aur" -le 0 ]; then
+    echo "$updates_arch $archicon"
+elif [ "$updates_arch" -lt 0 ] && [ "$updates_aur" -gt 0 ]; then
+    echo "$archicon $updates_aur"
 else
-    echo "%{F#96CDFB}"
+    echo "$archicon"
 fi
+
+
