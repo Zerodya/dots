@@ -16,12 +16,22 @@
   - [Mouse cursors](https://github.com/catppuccin/cursors)
 </details>
 
+# ~ i3-gaps
+- Bar: Polybar (Heavily customized from [polybar-themes's Forest](https://github.com/adi1090x/polybar-themes#forest))
+- Launcher: Rofi
+- Compositor: Picom
+- GTK Theme: [Catppuccin](https://github.com/catppuccin/gtk) (by using `lxappearance`)
+
+![alt text](https://github.com/TheAlphaCeph/dotfiles/blob/main/screenshots/i3_1.png?raw=true)
+![alt text](https://github.com/TheAlphaCeph/dotfiles/blob/main/screenshots/i3_2.png?raw=true)
+Shortcuts coming soon.
+
 # ~ Gnome
 
 - GTK Theme: [Colloid Dark](https://github.com/vinceliuice/Colloid-gtk-theme)
 - Icons: [Colloid](https://github.com/vinceliuice/Colloid-icon-theme)
 <details>
-  <summary>Gnome xtensions</summary>
+  <summary>Gnome extensions</summary>
   
 - [Application Volume Mixer](https://extensions.gnome.org/extension/3499/application-volume-mixer/)
 - [Archlinux updates indicator](https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/)
@@ -39,17 +49,9 @@
 - [Vertical Overview](https://extensions.gnome.org/extension/4144/vertical-overview/)
 </details>
 
+![alt text](https://github.com/TheAlphaCeph/dotfiles/blob/main/screenshots/Gnome_1.png?raw=true)
 Shortcuts coming soon.
-Screenshots coming soon.
 
-# ~ i3-gaps
-- Bar: Polybar (Heavily customized from [polybar-themes's Forest](https://github.com/adi1090x/polybar-themes#forest))
-- Launcher: Rofi
-- Compositor: Picom
-- GTK Theme: [Catppuccin](https://github.com/catppuccin/gtk) (by using `lxappearance`)
-
-Shortcuts coming soon.
-Screenshots coming soon.
 ***
 # Packages
 ### From Arch official repositories:
