@@ -1,28 +1,27 @@
 # My dotfiles
 
 **THIS REPO IS WORK IN PROGRESS**
-<details>
-  <summary>Theme: Catppuccin</summary>
-  
-  - [Firefox/Librewolf](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-dark-sky/)
-  - [Sublime Text](https://github.com/catppuccin/sublime-text)
-  - [Kitty](https://github.com/catppuccin/kitty)
-  - [Dark Reader](https://github.com/catppuccin/dark-reader)
-  - [btop](https://github.com/catppuccin/btop)
-  - [rofi](https://github.com/catppuccin/rofi)
-  - [Mouse cursors](https://github.com/catppuccin/cursors)
-</details>
 
+- Main theme: [Catppuccin](https://github.com/catppuccin/cattpuccin)
 - Terminal: Kitty
 - Shell: Zsh
 - Zsh Theme: [spaceship](https://github.com/spaceship-prompt/spaceship-prompt)
+<details>
+  <summary>Other Catppuccined things</summary>
+  
+  - [Firefox/Librewolf](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-dark-sky/)
+  - [Sublime Text](https://github.com/catppuccin/sublime-text)
+  - [Dark Reader](https://github.com/catppuccin/dark-reader)
+  - [btop](https://github.com/catppuccin/btop)
+  - [Mouse cursors](https://github.com/catppuccin/cursors)
+</details>
 
 # ~ Gnome
 
 - GTK Theme: [Colloid Dark](https://github.com/vinceliuice/Colloid-gtk-theme)
 - Icons: [Colloid](https://github.com/vinceliuice/Colloid-icon-theme)
 <details>
-  <summary>Extensions</summary>
+  <summary>Gnome xtensions</summary>
   
 - [Application Volume Mixer](https://extensions.gnome.org/extension/3499/application-volume-mixer/)
 - [Archlinux updates indicator](https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/)
@@ -44,7 +43,7 @@ Shortcuts coming soon.
 Screenshots coming soon.
 
 # ~ i3-gaps
-- Bar: Polybar (Modified version of [polybar-themes's Forest](https://github.com/adi1090x/polybar-themes#forest))
+- Bar: Polybar (Heavily customized from [polybar-themes's Forest](https://github.com/adi1090x/polybar-themes#forest))
 - Launcher: Rofi
 - Compositor: Picom
 - GTK Theme: [Catppuccin](https://github.com/catppuccin/gtk) (by using `lxappearance`)
@@ -52,25 +51,10 @@ Screenshots coming soon.
 Shortcuts coming soon.
 Screenshots coming soon.
 ***
-***
-# Replicate my setup on a fresh Arch Linux installation: 
-This is mostly just for myself so that I can easily get my system back everytime I break my Arch system (happens a lot).
-I will probably make a script to automate the whole process in the future.
-### Install Gnome and i3:
-```
-pacman -S xorg gnome i3 firefox git
-```
-- Gnome packages I install: 3 5-8 11 12 26-28 32 36 46 47 50 51 56
-- i3 packages I install: 1 3 4 5
-
-Enable gdm
-```
-systemctl enable gdm
-```
-  
+# Packages
 ### From Arch official repositories:
 ```
-sudo pacman -S btop cmake dbus dunst exa gnome-tweaks gparted kak kitty mpv neofetch nitrogen pfetch playerctl rofi rsync slop vim wmctrl zsh
+sudo pacman -S btop cmake dbus dunst exa gnome-tweaks gparted kak kitty mpv neofetch nitrogen pfetch playerctl ranger rofi rsync slop vim wmctrl zsh
 ```
   
 ### From Arch User Repository (AUR):
@@ -90,24 +74,10 @@ sudo pacman -S btop cmake dbus dunst exa gnome-tweaks gparted kak kitty mpv neof
   ```
 
 ***
-### Replicate my configuration:
-Clone this repo and move into it:
-```
-git clone https://github.com/TheAlphaCeph/dotfiles.git
-cd dotfiles
-```
-Copy my .config files:
-```
-cp -r .config/ ~/
-cp -r .local/ ~/
-```
-Set the wallpapaper in i3:
-```
-cp -r Pictures/wallpapers ~/Pictures
-nitrogen ~/Pictures/wallpapers/
-```
-***
-### Replicate my zsh config:
+### Other:
+<details>
+  <summary>Zsh configuration</summary>
+  
 Set `zsh` as the default terminal:
 ```
 chsh -s $(which zsh)
@@ -130,8 +100,8 @@ Use my `zsh` config:
 ```
 cp .zshrc ~/
 ```
-***
-### Other:
+</details>
+
 <details>
   <summary>More software I usually download</summary>
   
