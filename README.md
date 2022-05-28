@@ -70,7 +70,7 @@ systemctl enable gdm
   
 ### From Arch official repositories:
 ```
-sudo pacman -S btop cmake dbus dunst exa gnome-tweaks gparted kak kitty mpv neofetch nitrogen pfetch playerctl rofi rsync vim zsh
+sudo pacman -S btop cmake dbus dunst exa gnome-tweaks gparted kak kitty mpv neofetch nitrogen pfetch playerctl rofi rsync slop vim wmctrl zsh
 ```
   
 ### From Arch User Repository (AUR):
