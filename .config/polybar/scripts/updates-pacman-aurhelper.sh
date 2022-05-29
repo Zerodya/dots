@@ -19,7 +19,7 @@ if [ "$updates_arch" -gt 0 ] && [ "$updates_aur" -gt 0 ]; then
     echo "$updates_arch $archicon $updates_aur"
 elif [ "$updates_arch" -gt 0 ] && [ "$updates_aur" -le 0 ]; then
     echo "$updates_arch $archicon"
-elif [ "$updates_arch" -lt 0 ] && [ "$updates_aur" -gt 0 ]; then
+elif [ "$updates_arch" -le 0 ] && [ "$updates_aur" -gt 0 ]; then
     echo "$archicon $updates_aur"
 else
     echo "$archicon"
