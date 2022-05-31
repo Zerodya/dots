@@ -2,7 +2,6 @@
 exec_always --no-startup-id picom --experimental-backends
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id $HOME/scripts/start-pipewire.sh
-exec --no-startup-id $HOME/scripts/start-12c-openrgb.sh
 exec --no-startup-id setxkbmap us,it -option 'grp:alt_shift_toggle'
 exec_always --no-startup-id bash $HOME/.config/polybar/launch.sh --forest
 ## Additional software
