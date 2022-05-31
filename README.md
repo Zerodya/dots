@@ -19,6 +19,17 @@
 - Launcher: Rofi
 - Compositor: Picom
 - GTK Theme: [Catppuccin](https://github.com/catppuccin/gtk) (by using `lxappearance`)
+<details>
+  <summary>Polybar things to do (DO NOT SKIP THIS)</summary>
+  
+  1. Download the dependencies for the `polywins` module and make the script executable:
+  ```
+  sudo pacman -S --needed wmctrl xprop slop
+  chmod +x ~/.config/polybar/scripts/polywins.sh
+  ```
+  2. Uncomment the right `modules-right` in `polybar/forest/config.ini` depending on if you're using a desktop or a laptop.
+  3. Some modules will only work after specifying the right paths or devices, which are different from machine to machine. Make sure every module is working and configure them in `polybar/forest/modules.ini` and in `polybar/forest/user_modules.ini` if not.
+</details>
 
 ![alt text](https://github.com/TheAlphaCeph/dotfiles/blob/main/screenshots/i3_1.png?raw=true)
 ![alt text](https://github.com/TheAlphaCeph/dotfiles/blob/main/screenshots/i3_2.png?raw=true)
