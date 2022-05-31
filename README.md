@@ -21,7 +21,7 @@
 - Compositor: Picom
 - GTK Theme: [Catppuccin](https://github.com/catppuccin/gtk) (by using `lxappearance`)
 <details>
-  <summary>Polybar adjustments (DO NOT SKIP THIS)</summary>
+  <summary>Polybar adjustments (DO NOT SKIP)</summary>
   
   1. Download the dependencies for the `polywins` module and make the script executable:
   ```
