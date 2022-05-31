@@ -10,6 +10,7 @@
   - [Firefox/Librewolf](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-dark-sky/)
   - [Sublime Text](https://github.com/catppuccin/sublime-text)
   - [Dark Reader](https://github.com/catppuccin/dark-reader)
+  - [Spicetify for Spotify](https://github.com/catppuccin/spicetify)
   - [btop](https://github.com/catppuccin/btop)
   - [Mouse cursors](https://github.com/catppuccin/cursors)
 </details>
