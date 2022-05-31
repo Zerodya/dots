@@ -1,7 +1,5 @@
 # My dotfiles
 
-**THIS REPO IS WORK IN PROGRESS**
-
 - Main theme: [Catppuccin](https://github.com/catppuccin/cattpuccin)
 - Terminal: Kitty
 - Shell: Zsh
