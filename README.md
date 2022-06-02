@@ -16,7 +16,7 @@
 </details>
 
 # ~ i3-gaps
-- Bar: Polybar (Heavily customized from [polybar-themes's Forest](https://github.com/adi1090x/polybar-themes#forest))
+- Bar: Polybar (Forked from [polybar-themes's Forest](https://github.com/adi1090x/polybar-themes#forest))
 - Launcher: Rofi
 - Compositor: Picom
 - GTK Theme: [Catppuccin](https://github.com/catppuccin/gtk) (by using `lxappearance`)
