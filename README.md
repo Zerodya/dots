@@ -34,8 +34,26 @@
 
 ![alt text](https://github.com/TheAlphaCeph/dotfiles/blob/main/screenshots/i3_1.png?raw=true)
 ![alt text](https://github.com/TheAlphaCeph/dotfiles/blob/main/screenshots/i3_2.png?raw=true)
-Shortcuts coming soon.
 
+Custom shortcuts:
+| Keybind | Function |
+| --- | --- |
+| `Super + Return` | Open Kitty terminal |
+| `Super + d` | Open Rofi launcher |
+| `Super + Shift + q` | Close window |
+| `Super + 1-9` | Switch to workspace (1-9) |
+| `Super + Shift + 1-9` | Move window to workspace (1-9) |
+| `Super + Shift + r` | Restart i3 |
+| `Super + h,j,k,l` | Navigate through windows |
+| `Super + Shift + h,j,k,l` | Move window |
+| `Super + r` | Resize window using `h,j,k,l` |
+| `Super + v` | Open next window vertically |
+| `Super + c` | Open next window horizontally |
+| `Super + Shift + space` | Toggle floating mode |
+| `Super + f` | Toggle fullscreen mode |
+| `Alt + Shift` | Switch keyboard layout (Us/It) |
+
+Note: `h,j,k,l` refer to the Vi keybinds where `h = Left`, `j = Down`, `k = Up`, `l = Right`
 # ~ Gnome
 
 - GTK Theme: [Colloid Dark](https://github.com/vinceliuice/Colloid-gtk-theme)
@@ -60,7 +78,12 @@ Shortcuts coming soon.
 </details>
 
 ![alt text](https://github.com/TheAlphaCeph/dotfiles/blob/main/screenshots/Gnome_1.png?raw=true)
-Shortcuts coming soon.
+
+Custom shortcuts:
+| Keybind | Function |
+| --- | --- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ***
 # Packages
