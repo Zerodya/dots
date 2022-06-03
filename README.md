@@ -6,9 +6,11 @@
 
 # ~ i3-gaps
 Main theme: [**Catppuccin**](https://github.com/catppuccin/cattpuccin)
+- WM: [**i3**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.config/i3/config)
 - Bar: [**Polybar**](https://github.com/TheAlphaCeph/dotfiles/tree/main/.config/polybar) (Forked from [polybar-themes's Forest](https://github.com/adi1090x/polybar-themes#forest))
 - Launcher: [**Rofi**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.config/rofi/config.rasi)
 - Compositor: [**Picom**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.config/picom/picom.conf)
+- Notifications: [**Dunst**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.config/dunst/dunstrc)
 - GTK Theme: [**Catppuccin**](https://github.com/catppuccin/gtk) (by using `lxappearance`)
 
 <details>
@@ -58,7 +60,7 @@ Custom shortcuts:
 Note: `h,j,k,l` refers to the Vi keybinds where `h = Left`, `j = Down`, `k = Up`, `l = Right`
 # ~ Gnome
 
-- Shell: [**Colloid Dark**](https://github.com/vinceliuice/Colloid-gtk-theme)
+- Shell Theme: [**Colloid Dark**](https://github.com/vinceliuice/Colloid-gtk-theme)
 - GTK Theme: [**Juno Palenight**](https://github.com/EliverLara/Juno)
 - Icons: [**Colloid**](https://github.com/vinceliuice/Colloid-icon-theme)
 <details>
