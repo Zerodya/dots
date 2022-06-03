@@ -63,8 +63,10 @@ Note: `h,j,k,l` refers to the Vi keybinds where `h = Left`, `j = Down`, `k = Up`
 - Shell Theme: [**Colloid Dark**](https://github.com/vinceliuice/Colloid-gtk-theme)
 - GTK Theme: [**Juno Palenight**](https://github.com/EliverLara/Juno)
 - Icons: [**Colloid**](https://github.com/vinceliuice/Colloid-icon-theme)
+- Bar: [**Dash to Panel**](https://github.com/TheAlphaCeph/dotfiles/blob/main/Gnome/dash-to-panel-config)
+
 <details>
-  <summary>Gnome extensions</summary>
+  <summary>Extensions</summary>
   
 - [Application Volume Mixer](https://extensions.gnome.org/extension/3499/application-volume-mixer/)
 - [Archlinux updates indicator](https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/)
