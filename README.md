@@ -191,4 +191,4 @@ cp .zshrc ~/
 
 Q: Why the hell would you use both Gnome and i3 on the same computer?
 
-A: ~~Because I can.~~ I use i3 for productivity (for its keyboard-driven workflow) and Gnome for gaming (since it [automatically disables composition](https://linux-gaming.kwindu.eu/index.php?title=Compositor) to boost performance in games). This way I also get less distracted when I need to be productive (except when I get the urge to rice it.. *sigh*).
+A: ~~Because I can.~~ I use i3 for productivity (for its keyboard-driven workflow) and Gnome for gaming (since [it automatically disables composition](https://linux-gaming.kwindu.eu/index.php?title=Compositor) to boost performance in games).
