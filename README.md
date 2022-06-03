@@ -1,9 +1,16 @@
 # My dotfiles
 
-- Main theme: [Catppuccin](https://github.com/catppuccin/cattpuccin)
-- Terminal: Kitty
-- Shell: Zsh
-- Zsh Theme: [spaceship](https://github.com/spaceship-prompt/spaceship-prompt)
+- Terminal: [**Kitty**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.config/kitty/kitty.conf)
+- Shell: [**Zsh**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.zshrc)
+- Prompt: [**spaceship**](https://github.com/spaceship-prompt/spaceship-prompt)
+
+# ~ i3-gaps
+Main theme: [**Catppuccin**](https://github.com/catppuccin/cattpuccin)
+- Bar: [**Polybar**](https://github.com/TheAlphaCeph/dotfiles/tree/main/.config/polybar) (Forked from [polybar-themes's Forest](https://github.com/adi1090x/polybar-themes#forest))
+- Launcher: [**Rofi**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.config/rofi/config.rasi)
+- Compositor: [**Picom**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.config/picom/picom.conf)
+- GTK Theme: [**Catppuccin**](https://github.com/catppuccin/gtk) (by using `lxappearance`)
+
 <details>
   <summary>Other Catppuccined things</summary>
   
@@ -15,11 +22,6 @@
   - [Mouse cursors](https://github.com/catppuccin/cursors)
 </details>
 
-# ~ i3-gaps
-- Bar: Polybar (Forked from [polybar-themes's Forest](https://github.com/adi1090x/polybar-themes#forest))
-- Launcher: Rofi
-- Compositor: Picom
-- GTK Theme: [Catppuccin](https://github.com/catppuccin/gtk) (by using `lxappearance`)
 <details>
   <summary>Polybar adjustments (DO NOT SKIP)</summary>
   
@@ -39,25 +41,26 @@ Custom shortcuts:
 | Keybind | Function |
 | --- | --- |
 | `Super + Return` | Open Kitty terminal |
-| `Super + d` | Open Rofi launcher |
-| `Super + Shift + q` | Close window |
+| `Super + D` | Open Rofi launcher |
+| `Super + Shift + Q` | Close window |
 | `Super + 1-9` | Switch to workspace (1-9) |
 | `Super + Shift + 1-9` | Move window to workspace (1-9) |
-| `Super + Shift + r` | Restart i3 |
+| `Super + Shift + R` | Restart i3 |
 | `Super + h,j,k,l` | Navigate through windows |
 | `Super + Shift + h,j,k,l` | Move window |
-| `Super + r` | Resize window using `h,j,k,l` |
-| `Super + v` | Open next window vertically |
-| `Super + c` | Open next window horizontally |
+| `Super + R` | Resize window using `h,j,k,l` |
+| `Super + V` | Open next window vertically |
+| `Super + C` | Open next window horizontally |
 | `Super + Shift + space` | Toggle floating mode |
-| `Super + f` | Toggle fullscreen mode |
+| `Super + F` | Toggle fullscreen mode |
 | `Alt + Shift` | Switch keyboard layout (Us/It) |
 
-Note: `h,j,k,l` refer to the Vi keybinds where `h = Left`, `j = Down`, `k = Up`, `l = Right`
+Note: `h,j,k,l` refers to the Vi keybinds where `h = Left`, `j = Down`, `k = Up`, `l = Right`
 # ~ Gnome
 
-- GTK Theme: [Colloid Dark](https://github.com/vinceliuice/Colloid-gtk-theme)
-- Icons: [Colloid](https://github.com/vinceliuice/Colloid-icon-theme)
+- Shell: [**Colloid Dark**](https://github.com/vinceliuice/Colloid-gtk-theme)
+- GTK Theme: [**Juno Palenight**](https://github.com/EliverLara/Juno)
+- Icons: [**Colloid**](https://github.com/vinceliuice/Colloid-icon-theme)
 <details>
   <summary>Gnome extensions</summary>
   
@@ -82,8 +85,13 @@ Note: `h,j,k,l` refer to the Vi keybinds where `h = Left`, `j = Down`, `k = Up`,
 Custom shortcuts:
 | Keybind | Function |
 | --- | --- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| `Super + Return` | Open Kitty terminal |
+| `Super + D` | Search |
+| `Alt + Tab` | Switch windows |
+| `Super + 1-4` | Switch to workspace (1-4) |
+| `Super + Shift + 1-4` | Move window to workspace (1-4) |
+| `Super + Shift + Q` | Close window |
+| `Super + X` | Hide all windows |
 
 ***
 # Packages
@@ -183,4 +191,4 @@ cp .zshrc ~/
 
 Q: Why the hell would you use both Gnome and i3 on the same computer?
 
-A: ~~Because I can.~~ I use Gnome for gaming and i3 for productivity. This way I can separate the two and I get less distracted when I need to be productive (except when I get the urge to rice it, *sigh*)..
+A: ~~Because I can.~~ I use i3 for productivity (for its keyboard-driven workflow) and Gnome for gaming (since it [automatically disables composition](https://linux-gaming.kwindu.eu/index.php?title=Compositor) to boost performance in games). This way I also get less distracted when I need to be productive (except when I get the urge to rice it.. *sigh*).
