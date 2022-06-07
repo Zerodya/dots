@@ -47,6 +47,7 @@ Custom shortcuts:
 | `Super + Shift + Q` | Close window |
 | `Super + 1-9` | Switch to workspace (1-9) |
 | `Super + Shift + 1-9` | Move window to workspace (1-9) |
+| `Super + Tab` | Switch to last active workspace |
 | `Super + Shift + R` | Restart i3 |
 | `Super + h,j,k,l` | Navigate through windows |
 | `Super + Shift + h,j,k,l` | Move window |
