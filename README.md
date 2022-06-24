@@ -102,7 +102,7 @@ Custom shortcuts:
 # Packages
 ### From Arch official repositories:
 ```
-sudo pacman -S btop cmake dbus dunst exa gnome-tweaks gparted kak kitty mpv neofetch nitrogen pfetch playerctl ranger rofi rsync slop vim wmctrl zsh
+sudo pacman -S adobe-source-han-sans-jp-fonts cmake dbus dunst exa gnome-tweaks gparted kak kitty mpv neofetch nitrogen pfetch playerctl ranger rofi rsync slop vim wmctrl zsh
 ```
   
 ### From Arch User Repository (AUR):
