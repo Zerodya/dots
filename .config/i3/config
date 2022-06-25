@@ -1,10 +1,20 @@
-# Run at startup
+# Start compositor
 exec_always --no-startup-id picom --experimental-backends
+
+# Set wallpaper
 exec --no-startup-id nitrogen --restore
+
+# Start pipewire (for non-systemd inits)
 exec --no-startup-id $HOME/scripts/start-pipewire.sh
-exec --no-startup-id setxkbmap us,it -option 'grp:alt_shift_toggle'
+
+# Set keyboard layouts shortcut
+exec setxkbmap -layout "us,it,us" -variant ",,colemak" -option 'grp:alt_shift_toggle'
+
+# Launch polybar
 exec_always --no-startup-id bash $HOME/.config/polybar/launch.sh --forest
-## Additional software
+
+## Software to run at boot
+exec --no-startup-id syncthing
 exec --no-startup-id corectrl
 exec --no-startup-id signal-desktop-beta
 
