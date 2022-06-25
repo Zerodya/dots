@@ -15,10 +15,10 @@ font_index = 1
 # (float) : Update speed of the text in seconds.
 update_delay = 0.3
 
-# (list) : list of chars containing play and pause glyphs in respective order
-control_chars = ['','']
+# (list) : list of chars containing 'playing' and 'paused' glyphs in respective order
+control_chars = ['','']
 
-# (list) : list of chars containing play and pause colors in respective order
+# (list) : list of chars containing 'playing' and 'paused' colors in respective order
 button_colors = ['#ABE9B3','#FAE3B0']
 
 # (list) : list of metadata fields based on mpris sepecification.
@@ -76,17 +76,15 @@ def update_prefix(player_name="", status=""):
     if player_name != "":
         player_option = "-p " + player_name
 
-    play_button = "%{F" + button_colors[0] + "}" + control_chars[0] + "%{F-}"
-    pause_button = "%{F" + button_colors[1] + "}" + control_chars[1] + "%{F-}"
+    playing_button = "%{F" + button_colors[0] + "}" + control_chars[0] + "%{F-}"
+    paused_button = "%{F" + button_colors[1] + "}" + control_chars[1] + "%{F-}"
 
     if status == "Playing":
-        button = pause_button
+        display_prefix = playing_button
         status_paused = False
     else:
-        button = play_button
+        display_prefix = paused_button
         status_paused = True
-    # print(button)
-    display_prefix = button
 
 def update_players():
     global player_names, players, session_bus, current_player, last_player_name
