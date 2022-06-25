@@ -1,10 +1,10 @@
-# My dotfiles
+# ✨☄️ My dotfiles ☄️✨
 
 - Terminal: [**Kitty**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.config/kitty/kitty.conf)
 - Shell: [**Zsh**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.zshrc)
 - Prompt: [**spaceship**](https://github.com/spaceship-prompt/spaceship-prompt)
 
-# ~ i3-gaps
+# 🌘 i3-gaps ~
 Main theme: [**Catppuccin**](https://github.com/catppuccin/cattpuccin)
 - WM: [**i3**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.config/i3/config)
 - Bar: [**Polybar**](https://github.com/TheAlphaCeph/dotfiles/tree/main/.config/polybar) (Forked from [polybar-themes's Forest](https://github.com/adi1090x/polybar-themes#forest))
@@ -69,7 +69,7 @@ Custom shortcuts:
 | `Alt + Shift` | Switch keyboard layout (Us/It) |
 
 Note: `h,j,k,l` refers to the Vi keybinds where `h = Left`, `j = Down`, `k = Up`, `l = Right`
-# ~ Gnome
+# 🌒 Gnome ~
 
 - Shell Theme: [**Colloid Dark**](https://github.com/vinceliuice/Colloid-gtk-theme)
 - GTK Theme: [**Juno Palenight**](https://github.com/EliverLara/Juno)
@@ -109,7 +109,7 @@ Custom shortcuts:
 | `Super + X` | Hide all windows |
 
 ***
-# Packages
+# 📦 Packages
 ### From Arch official repositories:
 ```
 sudo pacman -S cmake dbus dunst exa gnome-tweaks gparted kak kitty mpv neofetch nitrogen pfetch playerctl ranger rofi rsync slop vim wmctrl zsh
@@ -132,7 +132,7 @@ sudo pacman -S cmake dbus dunst exa gnome-tweaks gparted kak kitty mpv neofetch 
   ```
 
 ***
-### Other:
+### 🚀 Useful stuff:
 <details>
   <summary>Zsh configuration</summary>
   
@@ -161,7 +161,7 @@ cp .zshrc ~/
 </details>
 
 <details>
-  <summary>More software I usually download</summary>
+  <summary>Common programs I usually download</summary>
   
   ```
   sudo pacman -S bitwarden discord flameshot libreoffice-fresh qbittorrent vlc
@@ -202,7 +202,7 @@ cp .zshrc ~/
 </details>
 
 ***
-**The FAQ nobody asked for:**
+🧐 **The FAQ nobody asked for:**
 
 Q: Why the hell would you use both Gnome and i3 on the same computer?
 
