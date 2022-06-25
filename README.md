@@ -25,15 +25,25 @@ Main theme: [**Catppuccin**](https://github.com/catppuccin/cattpuccin)
 </details>
 
 <details>
-  <summary>Polybar adjustments (DO NOT SKIP)</summary>
+  <summary>Polybar requirements (DO NOT SKIP)</summary>
   
-  1. Download the dependencies for the `polywins` module and make the script executable:
+  **1.** If you're using a laptop, make sure to uncomment the second `modules-right` in `config.ini`.
+  
+  **2.** Download the dependencies for the `polywins` module and make the script executable:
   ```
   sudo pacman -S --needed wmctrl xprop slop
   chmod +x ~/.config/polybar/scripts/polywins.sh
   ```
-  2. Uncomment the right `modules-right` in `polybar/forest/config.ini` depending on if you're using a desktop or a laptop.
-  3. Some modules will only work after specifying the right paths or devices, which are different from machine to machine. Make sure every module is working and configure them in `polybar/forest/modules.ini` and in `polybar/forest/user_modules.ini` if not.
+  **3.** Download the dependencies for the `now-playing` module and make the script executable
+  ```
+  sudo pacman -S --needed python3 playerctl dbus-python
+  chmod +x ~/.config/polybar/scripts/polybar-now-playing
+  ```
+  **4.** This polybar theme supports japanese fonts (mainly because of japanese songs in the now-playing module). If you want it too, you should download this font:
+  ```
+  sudo pacman -S adobe-source-han-sans-jp-fonts
+  ```
+  **5.** Some modules will only work after specifying the right paths or devices, which are different from machine to machine. Make sure every module is working and if not, configure them in `modules.ini` and in `user_modules.ini`.
 </details>
 
 ![alt text](https://github.com/TheAlphaCeph/dotfiles/blob/main/screenshots/i3_1.png?raw=true)
@@ -102,7 +112,7 @@ Custom shortcuts:
 # Packages
 ### From Arch official repositories:
 ```
-sudo pacman -S adobe-source-han-sans-jp-fonts cmake dbus dunst exa gnome-tweaks gparted kak kitty mpv neofetch nitrogen pfetch playerctl ranger rofi rsync slop vim wmctrl zsh
+sudo pacman -S cmake dbus dunst exa gnome-tweaks gparted kak kitty mpv neofetch nitrogen pfetch playerctl ranger rofi rsync slop vim wmctrl zsh
 ```
   
 ### From Arch User Repository (AUR):
