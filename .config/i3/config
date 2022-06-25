@@ -8,7 +8,7 @@ exec --no-startup-id nitrogen --restore
 exec --no-startup-id $HOME/scripts/start-pipewire.sh
 
 # Set keyboard layouts shortcut
-exec setxkbmap -layout "us,it,us" -variant ",,colemak" -option 'grp:alt_shift_toggle'
+exec setxkbmap -layout "us,it,us" -variant ",,colemak" -option 'grp:alt_shift_toggle' -option caps:backspace 
 
 # Launch polybar
 exec_always --no-startup-id bash $HOME/.config/polybar/launch.sh --catppuccin
@@ -154,9 +154,9 @@ set $ws10 "10"
 
 # Assigned workspaces
 assign [class="librewolf"] $ws2
-for_window [class="discord"] move to workspace $ws3
-for_window [class="Signal Beta"] move to workspace $ws3
-for_window [class="Spotify"] move to workspace $ws4
+for_window [class="Spotify"] move to workspace $ws3
+for_window [class="discord"] move to workspace $ws4
+for_window [class="Signal Beta"] move to workspace $ws4
 assign [class="FreeTube"] $ws5
 
 # switch to workspace
