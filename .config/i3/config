@@ -11,7 +11,7 @@ exec --no-startup-id $HOME/scripts/start-pipewire.sh
 exec setxkbmap -layout "us,it,us" -variant ",,colemak" -option 'grp:alt_shift_toggle'
 
 # Launch polybar
-exec_always --no-startup-id bash $HOME/.config/polybar/launch.sh --forest
+exec_always --no-startup-id bash $HOME/.config/polybar/launch.sh --catppuccin
 
 ## Software to run at boot
 exec --no-startup-id syncthing
