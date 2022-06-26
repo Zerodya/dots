@@ -164,7 +164,7 @@ cp .zshrc ~/
   <summary>Common programs I usually download</summary>
   
   ```
-  sudo pacman -S bitwarden discord flameshot libreoffice-fresh qbittorrent vlc
+  sudo pacman -S bitwarden discord flameshot libreoffice-fresh qbittorrent rhythmbox syncthing syncthing-relaysrv vlc
   ```
   ```
   yay -S freetube-bin librewolf-bin onlyoffice-bin signal-desktop-beta-bin spotify sublime-text-4 teams timeshift
