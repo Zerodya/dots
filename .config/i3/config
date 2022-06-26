@@ -14,7 +14,7 @@ exec setxkbmap -layout "us,it,us" -variant ",,colemak" -option 'grp:alt_shift_to
 exec_always --no-startup-id bash $HOME/.config/polybar/launch.sh --catppuccin
 
 ## Software to run at boot
-exec --no-startup-id syncthing
+exec --no-startup-id syncthing --no-browser
 exec --no-startup-id corectrl
 exec --no-startup-id signal-desktop-beta
 
