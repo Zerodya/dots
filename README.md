@@ -46,8 +46,8 @@ Main theme: [**Catppuccin**](https://github.com/catppuccin/cattpuccin)
   **5.** Some modules will only work after specifying the right paths or devices, which are different from machine to machine. Make sure every module is working and if not, configure them in `modules.ini` and in `user_modules.ini`.
 </details>
 
-![alt text](https://github.com/TheAlphaCeph/dotfiles/blob/main/screenshots/i3_1.png?raw=true)
-![alt text](https://github.com/TheAlphaCeph/dotfiles/blob/main/screenshots/i3_2.png?raw=true)
+![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/i3_1.png?raw=true)
+![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/i3_2.png?raw=true)
 
 Custom shortcuts:
 | Keybind | Function |
@@ -95,7 +95,7 @@ Note: `h,j,k,l` refers to the Vi keybinds where `h = Left`, `j = Down`, `k = Up`
 - [Vertical Overview](https://extensions.gnome.org/extension/4144/vertical-overview/)
 </details>
 
-![alt text](https://github.com/TheAlphaCeph/dotfiles/blob/main/screenshots/Gnome_1.png?raw=true)
+![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/Gnome_1.png?raw=true)
 
 Custom shortcuts:
 | Keybind | Function |
