@@ -5,7 +5,7 @@
 - Prompt: [**spaceship**](https://github.com/spaceship-prompt/spaceship-prompt)
 
 # 🌘 i3-gaps ~
-Main theme: [**Catppuccin**](https://github.com/catppuccin/cattpuccin)
+Color scheme: [**Catppuccin**](https://github.com/catppuccin/cattpuccin)
 - WM: [**i3**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.config/i3/config)
 - Bar: [**Polybar**](https://github.com/TheAlphaCeph/dotfiles/tree/main/.config/polybar) (Forked from [polybar-themes's Forest](https://github.com/adi1090x/polybar-themes#forest))
 - Launcher: [**Rofi**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.config/rofi/config.rasi)
