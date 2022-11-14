@@ -24,7 +24,7 @@ sudo pacman -S gnome-tweaks
 ```
 From Arch User Repository (AUR):
 ```
-yay -S chrome-gnome-shell gnome-browser-connector
+yay -S gnome-browser-connector
 ```
 
 ***
