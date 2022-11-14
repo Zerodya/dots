@@ -1,4 +1,16 @@
-## Custom keybinds:
+### Packages
+From Arch official repositories:
+```
+sudo pacman -S dunst kitty nitrogen playerctl rofi slop wmctrl
+```
+  
+From Arch User Repository (AUR):
+```
+yay -S nerd-fonts-complete picom-pijulius-git polybar 
+```
+
+***
+### Custom keybinds:
 
 | Keybind | Function |
 | --- | --- |
