@@ -1,3 +1,14 @@
+## Packages
+### From Arch official repositories:
+```
+sudo pacman -S gnome-tweaks
+```
+  
+### From Arch User Repository (AUR):
+```
+yay -S chrome-gnome-shell gnome-browser-connector
+```
+
 ## Extensions
 
 - [Application Volume Mixer](https://extensions.gnome.org/extension/3499/application-volume-mixer/)
