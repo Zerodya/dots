@@ -1,15 +1,15 @@
-## Packages
-### From Arch official repositories:
+### Packages
+From Arch official repositories:
 ```
 sudo pacman -S gnome-tweaks
 ```
-  
-### From Arch User Repository (AUR):
+From Arch User Repository (AUR):
 ```
 yay -S chrome-gnome-shell gnome-browser-connector
 ```
 
-## Extensions
+***
+### Extensions
 
 - [Application Volume Mixer](https://extensions.gnome.org/extension/3499/application-volume-mixer/)
 - [Archlinux updates indicator](https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/)
@@ -26,7 +26,8 @@ yay -S chrome-gnome-shell gnome-browser-connector
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - [Vertical Overview](https://extensions.gnome.org/extension/4144/vertical-overview/)
 
-## Custom keybinds:
+***
+### Custom keybinds:
 
 | Keybind | Function |
 | --- | --- |
