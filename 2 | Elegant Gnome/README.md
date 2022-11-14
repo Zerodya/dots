@@ -1,4 +1,3 @@
-***
 ### Extensions
 
 - [Arch Linux updates indicator](https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/)
@@ -30,6 +29,7 @@
 | `Super + Shift + Q` | Close window |
 | `Super + X` | Hide all windows |
 
+***
 ### Packages
 From Arch official repositories:
 ```
