@@ -17,6 +17,17 @@
 - [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
 
 ***
+### Packages
+From Arch official repositories:
+```
+sudo pacman -S gnome-tweaks
+```
+From Arch User Repository (AUR):
+```
+yay -S chrome-gnome-shell gnome-browser-connector
+```
+
+***
 ### Custom keybinds:
 
 | Keybind | Function |
@@ -28,14 +39,3 @@
 | `Super + Shift + 1-4` | Move window to workspace (1-4) |
 | `Super + Shift + Q` | Close window |
 | `Super + X` | Hide all windows |
-
-***
-### Packages
-From Arch official repositories:
-```
-sudo pacman -S gnome-tweaks
-```
-From Arch User Repository (AUR):
-```
-yay -S chrome-gnome-shell gnome-browser-connector
-```
