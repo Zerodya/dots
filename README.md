@@ -65,6 +65,8 @@ More Catppuccined things:
 - Bar: [**Dash to Panel**](https://github.com/TheAlphaCeph/dotfiles/blob/main/Gnome/dash-to-panel-config)
 </details>
 
+![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/Elegant-Gnome_1.png?raw=true)
+
 ***
 # 🌌 Tokyo Wayfire
 Coming soon.
