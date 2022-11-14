@@ -14,3 +14,15 @@
 - [Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/)
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - [Vertical Overview](https://extensions.gnome.org/extension/4144/vertical-overview/)
+
+## Custom keybinds:
+
+| Keybind | Function |
+| --- | --- |
+| `Super + Return` | Open Kitty terminal |
+| `Super + D` | Search |
+| `Alt + Tab` | Switch windows |
+| `Super + 1-4` | Switch to workspace (1-4) |
+| `Super + Shift + 1-4` | Move window to workspace (1-4) |
+| `Super + Shift + Q` | Close window |
+| `Super + X` | Hide all windows |
