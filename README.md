@@ -4,8 +4,7 @@
 - Shell: [**Zsh**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.zshrc)
 - Prompt: [**spaceship**](https://github.com/spaceship-prompt/spaceship-prompt)
 
-# 🌘 Comfy i3
-
+# ☕ [Comfy i3](https://github.com/Zerodya/dotfiles/tree/main/1%20%7C%20Comfy%20i3)
 <details>
   <summary>Details (Click me)</summary>
   
@@ -51,45 +50,28 @@ More Catppuccined things:
 ![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/i3_2.png?raw=true)
 
 
-
-# 🌒 Elegant Gnome
+# 👔 [Elegant Gnome](https://github.com/Zerodya/dotfiles/tree/main/2%20%7C%20Elegant%20Gnome)
 
 <details>
   <summary>Details (Click me)</summary>
   
-- Shell Theme: [**Colloid Dark**](https://github.com/vinceliuice/Colloid-gtk-theme)
-- GTK Theme: [**Juno Palenight**](https://github.com/EliverLara/Juno)
+- Shell Theme: **Adwaita** (Default)
+- Legacy Applications Theme: [**adw-gtk3**](https://github.com/lassekongo83/adw-gtk3)
 - Icons: [**Colloid**](https://github.com/vinceliuice/Colloid-icon-theme)
 - Bar: [**Dash to Panel**](https://github.com/TheAlphaCeph/dotfiles/blob/main/Gnome/dash-to-panel-config)
 </details>
 
 ![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/Gnome_1.png?raw=true)
 
-***
-# 📦 Packages
-### From Arch official repositories:
-```
-sudo pacman -S cmake dbus dunst exa gnome-tweaks gparted kak kitty mpv neofetch nitrogen pfetch playerctl ranger rofi rsync slop vim wmctrl zsh
-```
-  
-### From Arch User Repository (AUR):
-<details>
-  <summary>AUR recommendations</summary>
-    
-  Edit `/etc/makepkg.conf` following [this guide](https://gist.github.com/beci/c737c89685a667053fe02f986d59ca44) for faster compiling time.
-  
-  Install an AUR helper such as `yay`:
-  ```
-  git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
-  ```
-</details>
-  
-  ```
-  yay -S cava chrome-gnome-shell lf nerd-fonts-complete picom pipes.sh polybar 
-  ```
+
+# 🌌 Tokyo Wayfire
+Coming soon.
+
+# 🖲️ Hackbox i3
+Coming soon.
 
 ***
-### 🚀 Useful stuff:
+### 🚀 Other:
 <details>
   <summary>Zsh configuration</summary>
   
@@ -118,28 +100,6 @@ cp .zshrc ~/
 </details>
 
 <details>
-  <summary>Common programs I usually download</summary>
-  
-  ```
-  sudo pacman -S bitwarden discord flameshot libreoffice-fresh qbittorrent rhythmbox syncthing syncthing-relaysrv vlc
-  ```
-  ```
-  yay -S freetube-bin librewolf-bin onlyoffice-bin signal-desktop-beta-bin spotify sublime-text-4 teams timeshift
-  ```
-</details>
-
-<details>
-  <summary>Gaming additional software</summary>
-  
-  ```
-  sudo pacman -S gamemode lutris steam
-  ```
-  ```
-  yay -S corectrl goverlay-bin lib32-mangohud mangohud rpcs3-git yuzu-early-access
-  ```
-</details>
-
-<details>
   <summary>Laptop additional software</summary>
   
   Battery:
@@ -156,11 +116,8 @@ cp .zshrc ~/
   ```
   sudo pacman -S brightnessctl
   ```
+  Screen lock:
+  ```
+  sudo pacman -S xss-lock i3lock
+  ```
 </details>
-
-***
-🧐 **The FAQ nobody asked for:**
-
-Q: Why the hell would you use both Gnome and i3 on the same computer?
-
-A: ~~Because I can.~~ I use i3 for productivity (for its keyboard-driven workflow) and Gnome for gaming (since [it automatically disables composition](https://linux-gaming.kwindu.eu/index.php?title=Compositor) to boost performance in games).
