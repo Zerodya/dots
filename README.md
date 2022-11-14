@@ -58,6 +58,9 @@ More Catppuccined things:
   
 - Shell Theme: **Adwaita** (Default)
 - Legacy Applications Theme: [**adw-gtk3**](https://github.com/lassekongo83/adw-gtk3)
+
+(Theme colors customized with [Gradience](https://github.com/GradienceTeam/Gradience). Here is my [**preset**](https://github.com/Zerodya/dotfiles/blob/main/2%20%7C%20Elegant%20Gnome/Sur-Dark.json))
+
 - Icons: [**Colloid**](https://github.com/vinceliuice/Colloid-icon-theme)
 - Bar: [**Dash to Panel**](https://github.com/TheAlphaCeph/dotfiles/blob/main/Gnome/dash-to-panel-config)
 </details>
