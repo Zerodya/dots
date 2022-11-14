@@ -4,6 +4,7 @@
 - Shell: [**Zsh**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.zshrc)
 - Prompt: [**spaceship**](https://github.com/spaceship-prompt/spaceship-prompt)
 
+***
 # ☕ [Comfy i3](https://github.com/Zerodya/dotfiles/tree/main/1%20%7C%20Comfy%20i3)
 <details>
   <summary>Details (Click me)</summary>
@@ -49,7 +50,7 @@ More Catppuccined things:
 ![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/i3_1.png?raw=true)
 ![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/i3_2.png?raw=true)
 
-
+***
 # 👔 [Elegant Gnome](https://github.com/Zerodya/dotfiles/tree/main/2%20%7C%20Elegant%20Gnome)
 
 <details>
@@ -63,10 +64,11 @@ More Catppuccined things:
 
 ![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/Gnome_1.png?raw=true)
 
-
+***
 # 🌌 Tokyo Wayfire
 Coming soon.
 
+***
 # 🖲️ Hackbox i3
 Coming soon.
 
