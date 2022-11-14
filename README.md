@@ -4,18 +4,19 @@
 - Shell: [**Zsh**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.zshrc)
 - Prompt: [**spaceship**](https://github.com/spaceship-prompt/spaceship-prompt)
 
-# 🌘 i3-gaps ~
+# 🌘 Comfy i3
+
+<details>
+  <summary>Details (Click me)</summary>
+  
 Color scheme: [**Catppuccin**](https://github.com/catppuccin/cattpuccin)
 - WM: [**i3**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.config/i3/config)
 - Bar: [**Polybar**](https://github.com/TheAlphaCeph/dotfiles/tree/main/.config/polybar) (Forked from [polybar-themes's Forest](https://github.com/adi1090x/polybar-themes#forest))
 - Launcher: [**Rofi**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.config/rofi/config.rasi)
 - Compositor: [**Picom**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.config/picom/picom.conf)
 - Notifications: [**Dunst**](https://github.com/TheAlphaCeph/dotfiles/blob/main/.config/dunst/dunstrc)
-- GTK Theme: [**Catppuccin**](https://github.com/catppuccin/gtk) (by using `lxappearance`)
 
-<details>
-  <summary>Other Catppuccined things</summary>
-  
+More Catppuccined things:
   - [Firefox/Librewolf](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-dark-sky/)
   - [Sublime Text](https://github.com/catppuccin/sublime-text)
   - [Dark Reader](https://github.com/catppuccin/dark-reader)
@@ -25,7 +26,7 @@ Color scheme: [**Catppuccin**](https://github.com/catppuccin/cattpuccin)
 </details>
 
 <details>
-  <summary>Polybar requirements (DO NOT SKIP)</summary>
+  <summary>Polybar warnings</summary>
   
   **1.** If you're using a laptop, make sure to uncomment the second `modules-right` in `config.ini`.
   
@@ -39,7 +40,7 @@ Color scheme: [**Catppuccin**](https://github.com/catppuccin/cattpuccin)
   sudo pacman -S --needed python3 playerctl dbus-python
   chmod +x ~/.config/polybar/scripts/polybar-now-playing
   ```
-  **4.** This polybar theme supports japanese fonts (mainly because of japanese songs in the now-playing module). If you want it too, you should download this font:
+  **4.** If you want support for japanese fonts (mainly because of japanese songs in `the now-playing` module) you should download this font:
   ```
   sudo pacman -S adobe-source-han-sans-jp-fonts
   ```
@@ -49,64 +50,20 @@ Color scheme: [**Catppuccin**](https://github.com/catppuccin/cattpuccin)
 ![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/i3_1.png?raw=true)
 ![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/i3_2.png?raw=true)
 
-Custom shortcuts:
-| Keybind | Function |
-| --- | --- |
-| `Super + Return` | Open Kitty terminal |
-| `Super + D` | Open Rofi launcher |
-| `Super + Shift + Q` | Close window |
-| `Super + 1-9` | Switch to workspace (1-9) |
-| `Super + Shift + 1-9` | Move window to workspace (1-9) |
-| `Super + Tab` | Switch to last active workspace |
-| `Super + Shift + R` | Restart i3 |
-| `Super + h,j,k,l` | Navigate through windows |
-| `Super + Shift + h,j,k,l` | Move window |
-| `Super + R` | Resize window using `h,j,k,l` |
-| `Super + V` | Open next window vertically |
-| `Super + C` | Open next window horizontally |
-| `Super + Shift + space` | Toggle floating mode |
-| `Super + F` | Toggle fullscreen mode |
-| `Alt + Shift` | Switch keyboard layout (Us/It) |
 
-Note: `h,j,k,l` refers to the Vi keybinds where `h = Left`, `j = Down`, `k = Up`, `l = Right`
-# 🌒 Gnome ~
 
+# 🌒 Elegant Gnome
+
+<details>
+  <summary>Details (Click me)</summary>
+  
 - Shell Theme: [**Colloid Dark**](https://github.com/vinceliuice/Colloid-gtk-theme)
 - GTK Theme: [**Juno Palenight**](https://github.com/EliverLara/Juno)
 - Icons: [**Colloid**](https://github.com/vinceliuice/Colloid-icon-theme)
 - Bar: [**Dash to Panel**](https://github.com/TheAlphaCeph/dotfiles/blob/main/Gnome/dash-to-panel-config)
-
-<details>
-  <summary>Extensions</summary>
-  
-- [Application Volume Mixer](https://extensions.gnome.org/extension/3499/application-volume-mixer/)
-- [Archlinux updates indicator](https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/)
-- [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
-- [Compiz window effect](https://extensions.gnome.org/extension/3210/compiz-windows-effect/)
-- [Dash to panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
-- [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)
-- [Gnome 4x UI Improvements](https://extensions.gnome.org/extension/4158/gnome-40-ui-improvements/)
-- [Media Control](https://github.com/programmer-pony/media-controls)
-- [Workspaces Bar](https://extensions.gnome.org/extension/3851/workspaces-bar/)
-- [Tiling assistant](https://extensions.gnome.org/extension/3733/tiling-assistant/)
-- [Transparent window moving](https://extensions.gnome.org/extension/1446/transparent-window-moving/)
-- [Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/)
-- [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
-- [Vertical Overview](https://extensions.gnome.org/extension/4144/vertical-overview/)
 </details>
 
 ![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/Gnome_1.png?raw=true)
-
-Custom shortcuts:
-| Keybind | Function |
-| --- | --- |
-| `Super + Return` | Open Kitty terminal |
-| `Super + D` | Search |
-| `Alt + Tab` | Switch windows |
-| `Super + 1-4` | Switch to workspace (1-4) |
-| `Super + Shift + 1-4` | Move window to workspace (1-4) |
-| `Super + Shift + Q` | Close window |
-| `Super + X` | Hide all windows |
 
 ***
 # 📦 Packages
