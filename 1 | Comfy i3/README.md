@@ -6,7 +6,7 @@ sudo pacman -S dunst kitty nitrogen playerctl rofi slop wmctrl
   
 From Arch User Repository (AUR):
 ```
-yay -S i3lock-color i3lock-fancy-git nerd-fonts-complete picom-pijulius-git polybar 
+yay -S i3lock-color nerd-fonts-complete picom-pijulius-git polybar 
 ```
 
 ***
