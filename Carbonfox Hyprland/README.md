@@ -16,18 +16,18 @@ Additional software:
 - [**Zathura**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/zathura)
 
 ***
+### Packages
+```
+yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland j4-dmenu-desktop
+```
+
+***
 ### Screenshots
 Coming soon.
 
 ***
 ### Custom keybinds
 Coming soon.
-
-***
-### Packages
-```
-yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland j4-dmenu-desktop
-```
 
 ***
 Forked configs / Inspired from:
