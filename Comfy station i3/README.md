@@ -20,18 +20,18 @@ More Catppuccined things:
   - [**btop**](https://github.com/catppuccin/btop)
   - [**Mouse cursor**](https://github.com/catppuccin/cursors)
 
-Needed packages:
+### Packages
 ```
 yay -S --needed dunst kitty nitrogen playerctl rofi slop wmctrl python3 playerctl dbus-python xprop adobe-source-han-sans-jp-fonts i3lock-color nerd-fonts-complete picom-pijulius-git polybar ttf-material-design-icons-extended
 ```
 
 ***
-### Screenshots:
+### Screenshots
 ![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/Comfy-i3_1.png?raw=true)
 ![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/Comfy-i3_2.png?raw=true)
 
 ***
-### Custom keybinds:
+### Custom keybinds
 
 | Keybind | Function |
 | --- | --- |
