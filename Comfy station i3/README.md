@@ -1,12 +1,12 @@
 ### Packages
 From Arch official repositories:
 ```
-sudo pacman -S dunst kitty nitrogen playerctl rofi slop wmctrl
+sudo pacman -S --needed dunst kitty nitrogen playerctl rofi slop wmctrl python3 playerctl dbus-python xprop adobe-source-han-sans-jp-fonts
 ```
   
 From Arch User Repository (AUR):
 ```
-yay -S i3lock-color nerd-fonts-complete picom-pijulius-git polybar ttf-material-design-icons-extended
+yay -S i3lock-color nerd-fonts-complete picom-pijulius-git polybar ttf-material-design-icons-extended 
 ```
 
 ***
