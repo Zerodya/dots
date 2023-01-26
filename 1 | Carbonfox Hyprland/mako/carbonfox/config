@@ -1,0 +1,25 @@
+layer=top
+markup=1
+anchor=top-right
+background-color=#161616
+text-color=#f2f4f8
+width=350
+height=200
+max-icon-size=96
+icon-location=right
+margin=6,6,0
+padding=15,15,15
+border-size=2
+border-color=#8cb6ff
+border-radius=15
+progress-color=over #282828
+default-timeout=5000
+group-by=summary
+format=<span font="monospace weight=325 Italic" size="12288">%s</span>\n<span font="monospace weight=325" size="12288">%b</span>
+
+[grouped]
+format=<span font="monospace Nerd Font weight=325 Italic" size="12288">%s</span>\n<span font="monospace weight=325" size="12288">%b</span>
+
+[mode=do-not-disturb]
+invisible=1
+
