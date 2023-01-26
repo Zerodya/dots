@@ -1,5 +1,14 @@
-### Extensions
 
+![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/Elegant-Gnome_1.png?raw=true)
+
+***
+Color scheme: [**Sur Dark**](https://github.com/Zerodya/dotfiles/blob/main/2%20%7C%20Elegant%20Gnome/Sur-Dark.json) (with [Gradience](https://github.com/GradienceTeam/Gradience))
+- Shell Theme: **Adwaita** (default)
+- Legacy Applications Theme: [**adw-gtk3**](https://github.com/lassekongo83/adw-gtk3) (for consistency)
+- Icons: [**Colloid**](https://github.com/vinceliuice/Colloid-icon-theme)
+- Bar: [**Dash to Panel**](https://github.com/TheAlphaCeph/dotfiles/blob/main/Gnome/dash-to-panel-config)
+
+Extensions:
 - [Arch Linux updates indicator](https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/)
 - [ArcMenu](https://extensions.gnome.org/extension/3628/arcmenu/)
 - [Aylur's Widgets](https://extensions.gnome.org/extension/5338/aylurs-widgets/)
@@ -18,17 +27,16 @@
 
 ***
 ### Packages
-From Arch official repositories:
 ```
-sudo pacman -S gnome-tweaks
-```
-From Arch User Repository (AUR):
-```
-yay -S gnome-browser-connector
+yay -S --needed gnome-tweaks gradience
 ```
 
 ***
-### Custom keybinds:
+### Screenshots
+![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/Elegant-Gnome_1.png?raw=true)
+
+***
+### Custom keybinds
 
 | Keybind | Function |
 | --- | --- |
