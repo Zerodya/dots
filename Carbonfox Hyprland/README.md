@@ -18,7 +18,7 @@ Additional software:
 ***
 ### Packages
 ```
-yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland j4-dmenu-desktop
+yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland j4-dmenu-desktop swayidle swaylock
 ```
 
 ***
