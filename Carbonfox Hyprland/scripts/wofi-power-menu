@@ -16,5 +16,5 @@ case $selected in
   logout)
     loginctl terminate-session ${XDG_SESSION_ID-};;
   lockscreen)
-    ;;
+    swaylock;;
 esac
