@@ -4,8 +4,6 @@
     "modules-left": ["custom/launcher", "wlr/workspaces"],
     "modules-center": ["custom/media"],
     "modules-right": ["tray", "custom/updates-pacman-aur", "pulseaudio", "clock", "custom/power"],
-    // For laptop:
-    //"modules-right": ["tray", "custom/updates-pacman-aur","pulseaudio","battery", "clock", "custom/power"],
 
     // Modules configuration
     "wlr/workspaces": {
@@ -34,9 +32,9 @@
         "format": "<span foreground='#8cb6ff'></span> {}",
         "exec" : "$HOME/.config/waybar/scripts/updates-pacman-aur.sh",
         "interval": 300,
-        "on-click": "kitty sh -c 'sudo pacman -Syu ; echo Done - Press enter to exit; read _'",
-        "on-click-right": "kitty sh -c 'yay -Sua --sudoloop ; echo Done - Press enter to exit; read _'",
-        "on-click-middle": "kitty sh -c 'yay -Syu --sudoloop ; echo Done - Press enter to exit; read _'"
+        "on-click": "kitty -c .config/kitty/carbonfox/kitty.conf sh -c 'sudo pacman -Syu ; echo Done - Press enter to exit; read _'",
+        "on-click-right": "kitty -c .config/kitty/carbonfox/kitty.conf sh -c 'yay -Sua --sudoloop ; echo Done - Press enter to exit; read _'",
+        "on-click-middle": "kitty -c .config/kitty/carbonfox/kitty.conf sh -c 'yay -Syu --sudoloop ; echo Done - Press enter to exit; read _'"
     },
     "custom/media": {
         "format": "{icon} {}",
@@ -53,35 +51,14 @@
         "on-click-right": "playerctl next",
         "on-click-middle": "playerctl previous"
     },
-	"clock": {
-		"format": "<span foreground='#8cb6ff'> </span>{:%I:%M %p}",
+    "clock": {
+	"format": "<span foreground='#8cb6ff'> </span>{:%I:%M %p}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
 	},
-	"battery": {
-        "states": {
-            "warning": 30,
-            "critical": 15
-        	},
-		    "format": "<span size='13000' foreground='#8cb6ff'>{icon}</span> {capacity}% {power}W",
-		    "format-warning": "<span size='13000' foreground='#8cb6ff'>{icon}</span> {capacity}%",
-		    "format-critical": "<span size='13000' foreground='#ee5396'>{icon}</span> {capacity}%",
-		    "format-charging": "<span size='13000' foreground='#8cb6ff'> </span>{capacity}%",
-		    "format-plugged": "<span size='13000' foreground='#8cb6ff'> </span>{capacity}%",
-		    "format-alt": "<span size='13000' foreground='#8cb6ff'>{icon}</span> {time}",
-		    "format-full": "<span size='13000' foreground='#8cb6ff'> </span>{capacity}%",
-        	"format-icons": ["", "", "", "", ""],
-            "tooltip-format": "{time}"
-	},
-	"network": {
-        "format-wifi": "<span size='13000' foreground='#8cb6ff'> </span>{essid}",
-        "format-ethernet": "<span size='13000' foreground='#8cb6ff'>󰤭</span> Disconnected",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "<span size='13000' foreground='#ee5396'> </span>Disconnected",
-		"tooltip-format-wifi": "Signal Strenght: {signalStrength}%"
-	},
-	"pulseaudio": {
-		"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
-		"format": "<span size='13000' foreground='#8cb6ff'>{icon}</span> {volume}%",
+    "pulseaudio": {
+	"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+	"on-click-right": "pavucontrol",
+	"format": "<span size='13000' foreground='#8cb6ff'>{icon}</span> {volume}%",
         "format-muted": "<span size='14000' foreground='#ff7eb6'></span> Muted",
         "format-icons": {
             "headphone": "",
