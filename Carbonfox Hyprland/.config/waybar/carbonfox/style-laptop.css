@@ -11,12 +11,12 @@ window#waybar {
 }
 
 tooltip {
-	background: #161616;
-	border-radius: 15px;
-	border-width: 2px;
-	border-style: solid;
-	border-color: #8cb6ff;
-	}
+    background: #161616;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #8cb6ff;
+}
 
 #workspaces {
     background: #282828;
@@ -44,11 +44,11 @@ tooltip {
 #workspaces button:hover {
     background: #282828;
     border-color: #282828;
-	color: #f16da6;
+    color: #f16da6;
 }
 
 #clock, #battery, #backlight, #language, #pulseaudio, #workspaces, #tray, #custom-launcher, #custom-updates-pacman-aur, #custom-power {
-	padding: 0px 15px;
+    padding: 0px 15px;
     background: #282828;
     margin-top: 5px;
     margin-bottom: 5px;
