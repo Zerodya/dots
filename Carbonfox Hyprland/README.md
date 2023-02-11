@@ -7,6 +7,7 @@ Screenshot coming soon.
 - Launcher: [**Bemenu**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/bemenu) + [j4-dmenu-desktop](https://github.com/enkore/j4-dmenu-desktop)
 - Powermenu: [**Wofi**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/wofi) + [**custom script**](https://github.com/Zerodya/dotfiles/blob/main/Carbonfox%20Hyprland/scripts/wofi-power-menu)
 - Notifications: [**Mako**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/mako/carbonfox)
+- Lock Screen: [**Swaylock-effects**](https://github.com/Zerodya/dotfiles/blob/main/Carbonfox%20Hyprland/.config/swaylock/config)
 
 **GTK color scheme:** [**Carbonfox preset**](https://github.com/Zerodya/dotfiles/blob/main/Carbonfox%20Hyprland/.config/presets/user/carbonfox.json) using [Gradience](https://github.com/GradienceTeam/Gradience)
 - GTK4 theme: adwaita (Default)
