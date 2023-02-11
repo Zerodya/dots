@@ -4,7 +4,7 @@
     "modules-left": ["custom/launcher", "wlr/workspaces"],
     "modules-center": ["custom/media"],
     "modules-right": ["tray", "custom/updates-pacman-aur","pulseaudio","backlight","hyprland/language", "battery", "network","clock", "custom/power"],
-    
+
     // Modules configuration
     "wlr/workspaces": {
         "all-outputs": true,
@@ -59,29 +59,21 @@
         "states": {
             "warning": 30,
             "critical": 15,
-            "format": "<span size='13000' foreground='#8cb6ff'>{icon} </span>{capacity}%",
-            "format-warning": "<span size='13000' foreground='#8cb6ff'>{icon} </span>{capacity}%",
-            "format-critical": "<span size='13000' foreground='#ee5396'>{icon} </span>{capacity}%",
-            "format-charging": "<span size='13000' foreground='#8cb6ff'>󰂄 </span>{capacity}%",
-            "format-plugged": "<span size='13000' foreground='#8cb6ff'>󰂄 </span>{capacity}%",
-            "format-alt": "<span size='13000' foreground='#8cb6ff'>{icon} </span>{time}",
-            "format-full": "<span size='13000' foreground='#8cb6ff'>󱈏 </span>{capacity}%",
-            "format-icons": [
-                "󰁺",
-                "󰁼",
-                "󰁾",
-                "󰂀",
-                "󰂂"
-            ],
+        },
+        "format": "<span size='13000' foreground='#8cb6ff'>{icon} </span>{capacity}%",
+        "format-warning": "<span size='13000' foreground='#8cb6ff'>{icon} </span>{capacity}%",
+        "format-critical": "<span size='13000' foreground='#ee5396'>{icon} </span>{capacity}%",
+        "format-charging": "<span size='13000' foreground='#8cb6ff'>󰂄 </span>{capacity}%",
+        "format-plugged": "<span size='13000' foreground='#8cb6ff'>󰂄 </span>{capacity}%",
+        "format-alt": "<span size='13000' foreground='#8cb6ff'>{icon} </span>{time}",
+        "format-full": "<span size='13000' foreground='#8cb6ff'>󱈏 </span>{capacity}%",
+        "format-icons": ["󰁺","󰁼","󰁾","󰂀","󰂂"],
         "tooltip-format": "Time remaining:{time}\nPower draw:{power}W"
     },
     "backlight": {
         "device": "intel_backlight",
         "format": "<span size='13000' foreground='#8cb6ff'>{icon} </span>{percent}%",
-        "format-icons": [
-            "",
-            "󰖨"
-        ]
+        "format-icons": ["","󰖨"]
     },
     "hyprland/language": {
         "format": "<span size='13000' foreground='#8cb6ff'>󰌌 </span>{}",
@@ -95,12 +87,7 @@
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "<span size='13000' foreground='#ee5396'>󰤮   </span>",
         "tooltip-format-wifi": "Connected to: {essid}\nSignal strength: {signalStrength}%",
-        "format-icons": [
-            "󰤟",
-            "󰤢",
-            "󰤥",
-            "󰤨"
-        ],
+        "format-icons": ["󰤟","󰤢","󰤥","󰤨"],
         "on-click": "nm-connection-editor"
     },
     "pulseaudio": {
@@ -115,15 +102,11 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": [
-                "",
-                ""
-            ]
+            "default": ["",""]
         }
     },
     "tray": {
         "icon-size": 16,
         "spacing": 10
-    }
     }
 }
