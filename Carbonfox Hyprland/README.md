@@ -23,7 +23,7 @@ Screenshot coming soon.
 ***
 ### Packages
 ```
-yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland j4-dmenu-desktop swayidle swaylock
+yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland j4-dmenu-desktop swayidle swaylock-effects-git
 ```
 
 ***
