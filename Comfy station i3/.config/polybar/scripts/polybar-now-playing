@@ -7,7 +7,7 @@ from unicodedata import east_asian_width
 # Config options
 
 # (int) : Length of media info string. If length of string exceedes this value, the text will scroll. Default value is 20
-message_display_len = 30
+message_display_len = 24
 
 # (int) : Font index of polybar. this value should be 1 more than the font value specified in polybar config.
 font_index = 1
