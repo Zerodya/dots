@@ -1,5 +1,5 @@
 ![alt text](https://github.com/Zerodya/dotfiles/raw/main/Comfy%20station%20i3/screenshots/clean.png)
-
+⚠️ **These dotfiles will no longer be updated as I'm not using i3 anymore**
 ***
 Color scheme: [Catppuccin](https://github.com/catppuccin/catppuccin)
 - WM: [**i3**](https://github.com/Zerodya/dotfiles/tree/main/Comfy%20station%20i3/.config/i3)
@@ -71,8 +71,8 @@ yay -S --needed dunst kitty nitrogen playerctl rofi slop wmctrl python3 playerct
 | `Super + V` | Open next window vertically |
 | `Super + C` | Open next window horizontally |
 | `Super + Q` | Toggle floating mode |
-| `Super + F` | Toggle fullscreen mode |
-| `Super + Space` | Switch keyboard layout (Us/It) |
+| `Super + F` | Toggle maximize window |
+| `Super + Shift + F` | Toggle fullscreen window |
 
 ***
 Forked configs / Inspired from: 
