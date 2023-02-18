@@ -1,7 +1,7 @@
-![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/Comfy-i3_1.png?raw=true)
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Comfy%20station%20i3/screenshots/clean.png)
 
 ***
-Color scheme: [**Catppuccin**](https://github.com/catppuccin/cattpuccin)
+Color scheme: [Catppuccin](https://github.com/catppuccin/catppuccin)
 - WM: [**i3**](https://github.com/Zerodya/dotfiles/tree/main/Comfy%20station%20i3/.config/i3)
 - Bar: [**Polybar**](https://github.com/Zerodya/dotfiles/tree/main/Comfy%20station%20i3/.config/polybar)
 - Launcher: [**Rofi**](https://github.com/Zerodya/dotfiles/tree/main/Comfy%20station%20i3/.config/rofi)
@@ -9,16 +9,16 @@ Color scheme: [**Catppuccin**](https://github.com/catppuccin/cattpuccin)
 - Notifications: [**Dunst**](https://github.com/Zerodya/dotfiles/tree/main/Comfy%20station%20i3/.config/dunst)
 
 Terminal: [**Kitty**](https://github.com/Zerodya/dotfiles/tree/main/Comfy%20station%20i3/.config/kitty)
-- Shell: [**Fish**]()
-- Prompt: [**starship**](https://starship.rs/)
+- Shell: [Fish](https://github.com/catppuccin/fish)
+- Prompt: [starship](https://starship.rs/)
 
 More Catppuccined things:
-  - [**Firefox**](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-dark-sky/)
-  - [**Sublime Text**](https://github.com/catppuccin/sublime-text)
-  - [**Dark Reader**](https://github.com/catppuccin/dark-reader)
-  - [**Spicetify for Spotify**](https://github.com/catppuccin/spicetify)
-  - [**btop**](https://github.com/catppuccin/btop)
-  - [**Mouse cursor**](https://github.com/catppuccin/cursors)
+  - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-dark-sky/)
+  - [Sublime Text](https://github.com/catppuccin/sublime-text)
+  - [Dark Reader](https://github.com/catppuccin/dark-reader)
+  - [Spicetify for Spotify](https://github.com/catppuccin/spicetify)
+  - [btop](https://github.com/catppuccin/btop)
+  - [Mouse cursor](https://github.com/catppuccin/cursors)
 
 ### Packages
 ```
@@ -27,8 +27,31 @@ yay -S --needed dunst kitty nitrogen playerctl rofi slop wmctrl python3 playerct
 
 ***
 ### Screenshots
-![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/Comfy-i3_1.png?raw=true)
-![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/Comfy-i3_2.png?raw=true)
+
+
+**Fetch**
+
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Comfy%20station%20i3/screenshots/fetch.png)
+
+
+**Htop**
+
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Comfy%20station%20i3/screenshots/htop.png)
+
+
+**Rofi**
+
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Comfy%20station%20i3/screenshots/rofi.png)
+
+
+**Powermenu**
+
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Comfy%20station%20i3/screenshots/powermenu.png)
+
+
+**Dunst**
+
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Comfy%20station%20i3/screenshots/dunst.png)
 
 ***
 ### Custom keybinds
@@ -47,10 +70,11 @@ yay -S --needed dunst kitty nitrogen playerctl rofi slop wmctrl python3 playerct
 | `Super + R` | Resize window using `h,j,k,l` |
 | `Super + V` | Open next window vertically |
 | `Super + C` | Open next window horizontally |
-| `Super + Shift + space` | Toggle floating mode |
+| `Super + Q` | Toggle floating mode |
 | `Super + F` | Toggle fullscreen mode |
-| `Alt + Shift` | Switch keyboard layout (Us/It) |
+| `Super + Space` | Switch keyboard layout (Us/It) |
 
 ***
 Forked configs / Inspired from: 
-  - [adi1090x's polybar forest theme](https://github.com/adi1090x/polybar-themes#forest)
+- [adi1090x's polybar forest theme](https://github.com/adi1090x/polybar-themes#forest)
+- [d093w1z's polybar-now-playing](https://github.com/d093w1z/polybar-now-playing/blob/master/polybar-now-playing)
