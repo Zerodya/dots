@@ -1,4 +1,4 @@
-Screenshot coming soon.
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Carbonfox%20Hyprland/screenshots/clean.png)
 
 ***
 **Color scheme:** [Carbonfox](https://github.com/EdenEast/nightfox.nvim#carbonfox)
@@ -29,12 +29,73 @@ yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland j4-dmenu-des
 
 ***
 ### Screenshots
-Coming soon.
+
+**Fetch**
+
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Carbonfox%20Hyprland/screenshots/fetch.png)
+
+
+**GTK**
+
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Carbonfox%20Hyprland/screenshots/gtk.png)
+
+
+**Nvim**
+
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Carbonfox%20Hyprland/screenshots/nvim.png)
+
+
+**Htop**
+
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Carbonfox%20Hyprland/screenshots/htop.png)
+
+
+**Zathura**
+
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Carbonfox%20Hyprland/screenshots/zathura.png)
+
+
+**Bemenu**
+
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Carbonfox%20Hyprland/screenshots/bemenu.png)
+
+
+**Mako**
+
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Carbonfox%20Hyprland/screenshots/mako.png)
+
+
+**Powermenu**
+
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Carbonfox%20Hyprland/screenshots/powermenu.png)
+
+
+**Waybar laptop variant**
+
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Carbonfox%20Hyprland/screenshots/waybar_laptop.png)
 
 ***
 ### Custom keybinds
-Coming soon.
+
+| Keybind | Function |
+| --- | --- |
+| `Super + Return` | Open Kitty terminal |
+| `Super + D` | Open Bemenu launcher |
+| `Super + Shift + Q` | Close window |
+| `Super + 1-9` | Switch to workspace (1-9) |
+| `Super + Shift + 1-9` | Move window to workspace (1-9) |
+| `Super + Tab` | Switch to last workspace |
+| `Super + h,j,k,l` | Navigate through windows |
+| `Super + Shift + h,j,k,l` | Move window |
+| `Super + R` | Resize window using `h,j,k,l` |
+| `Super + P` | Toggle Hyprland pseudo |
+| `Super + T` | Toggle Hyprland split |
+| `Super + Q` | Toggle window float |
+| `Super + F` | Toggle maximize window |
+| `Super + Shift + F` | Toggle fullscreen window |
+| `Alt + Space` | Switch keyboard layout (Us/It/Colemak-DH) |
 
 ***
 Inspired by/forked from:
 - [lokesh-krishna dotfiles](https://github.com/lokesh-krishna/dotfiles/tree/main/catppuccin)
+- [Waybar's mediaplayer.py](https://github.com/Alexays/Waybar/blob/master/resources/custom_modules/mediaplayer.py)
