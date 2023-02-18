@@ -1,16 +1,9 @@
-# ✨☄️ My dotfiles ☄️✨
-
+# <p align="center"> 🌌 Dotfiles </p>
+~ Welcome to my dotfiles repository! Here you will find the configuration files I use for my Linux setups on Arch and Artix.
 ***
 # 🦊 [Carbonfox Hyprland](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland)
-Screenshot coming soon.
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Carbonfox%20Hyprland/screenshots/clean.png)
 
-***
-# ☕ [Comfy station i3](https://github.com/Zerodya/dotfiles/tree/main/Comfy%20station%20i3)
+# ☕ [Comfy station i3](https://github.com/Zerodya/dotfiles/raw/main/Comfy%20station%20i3/screenshots/clean.png)
 
-![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/Comfy-i3_1.png?raw=true)
-
-***
-# 👔 [Elegant Gnome](https://github.com/Zerodya/dotfiles/tree/main/Elegant%20Gnome)
-
-![alt text](https://github.com/Zerodya/dotfiles/blob/main/screenshots/Elegant-Gnome_1.png?raw=true)
-
+![alt text](https://github.com/Zerodya/dotfiles/raw/main/Comfy%20station%20i3/screenshots/clean.png)
