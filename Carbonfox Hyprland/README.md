@@ -2,7 +2,7 @@
 
 ***
 **Color scheme:** [Carbonfox](https://github.com/EdenEast/nightfox.nvim#carbonfox)
-- WM: [**hypr**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/hypr)
+- WM: [**Hyprland**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/hypr)
 - Bar: [**Waybar**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/waybar)
 - Launcher: [**Bemenu**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/bemenu) + [j4-dmenu-desktop](https://github.com/enkore/j4-dmenu-desktop)
 - Powermenu: [**Wofi**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/wofi) + [**custom script**](https://github.com/Zerodya/dotfiles/blob/main/Carbonfox%20Hyprland/scripts/wofi-power-menu)
@@ -93,6 +93,7 @@ yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland j4-dmenu-des
 | `Super + Q` | Toggle window float |
 | `Super + F` | Toggle maximize window |
 | `Super + Shift + F` | Toggle fullscreen window |
+| `Super + Shift + E` | Powermenu |
 | `Alt + Space` | Switch keyboard layout (Us/It/Colemak-DH) |
 
 ***
