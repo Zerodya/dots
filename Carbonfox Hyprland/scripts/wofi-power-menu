@@ -1,6 +1,6 @@
 #!/bin/bash
 
-entries=" Shutdown\n Reboot\n鈴 Suspend \n Standby\n Logout\n Lockscreen"
+entries=" Shutdown\n Reboot\n Suspend \n Standby\n Logout\n Lockscreen"
 
 selected=$(echo -e $entries|wofi --dmenu -W 250 -H 250 --location 3 -x -51 -y 6 -k /dev/null | awk '{print tolower($2)}')
 
