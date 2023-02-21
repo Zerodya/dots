@@ -1,6 +1,6 @@
 * {
     border-radius: 0;
-    font-family: "monospace";
+    font-family: BitstreamVeraSansMono Nerd Font;
     font-size: 11pt;
     min-height: 0;
 }
@@ -11,12 +11,12 @@ window#waybar {
 }
 
 tooltip {
-	background: #161616;
-	border-radius: 15px;
-	border-width: 2px;
-	border-style: solid;
-	border-color: #8cb6ff;
-	}
+    background: #161616;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #8cb6ff;
+    }
 
 #workspaces {
     background: #282828;
@@ -28,7 +28,7 @@ tooltip {
 
 #workspaces button {
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 10px;
     min-width: 0;
     color: #f2f4f8;
 }
@@ -44,11 +44,11 @@ tooltip {
 #workspaces button:hover {
     background: #282828;
     border-color: #282828;
-	color: #f16da6;
+    color: #f16da6;
 }
 
-#clock, #battery, #pulseaudio, #workspaces, #mpd, #tray, #custom-launcher, #custom-updates-pacman-aur, #custom-power {
-	padding: 0px 15px;
+#clock, #battery, #pulseaudio, #workspaces, #tray, #custom-launcher, #custom-updates-pacman-aur, #custom-power {
+    padding: 0px 15px;
     background: #282828;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -73,7 +73,7 @@ tooltip {
 
 #custom-power {
     color: #ff7eb6;
-    padding-right: 15px;
+    padding-right: 18px;
     padding-left: 15px;
     margin-right: 10px;
     margin-left: 5px;
@@ -82,22 +82,22 @@ tooltip {
 
 #custom-launcher {
     color: #8cb6ff;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 18px;
+    padding-left: 14px;
     margin-right: 5px;
     margin-left: 10px;
     border-radius: 15px;    
 }
 
 #pulseaudio {
-    padding-left: 15px;
+    padding-left: 20px;
     margin-left: 5px;
     margin-right: -15px;
     border-radius: 15px 0px 0px 15px;
 }
 
 #clock {
-    padding-right: 15px;
+    padding-right: 20px;
     margin-right: 5px;
     border-radius: 0px 15px 15px 0px;
 }
