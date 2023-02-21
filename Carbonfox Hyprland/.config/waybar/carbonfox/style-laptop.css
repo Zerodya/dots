@@ -1,6 +1,6 @@
 * {
     border-radius: 0;
-    font-family: "monospace";
+    font-family: BitStreamVeraSansMono Nerd Font;
     font-size: 11pt;
     min-height: 0;
 }
@@ -11,12 +11,12 @@ window#waybar {
 }
 
 tooltip {
-    background: #161616;
-    border-radius: 15px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #8cb6ff;
-}
+	background: #161616;
+	border-radius: 15px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #8cb6ff;
+	}
 
 #workspaces {
     background: #282828;
@@ -28,7 +28,7 @@ tooltip {
 
 #workspaces button {
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 10px;
     min-width: 0;
     color: #f2f4f8;
 }
@@ -72,7 +72,7 @@ tooltip {
 
 #network {
     padding-left: 15px;
-    padding-right: 2px;
+    padding-right: 0px;
     background: #282828;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -88,7 +88,7 @@ tooltip {
 
 #custom-power {
     color: #ff7eb6;
-    padding-right: 15px;
+    padding-right: 18px;
     padding-left: 15px;
     margin-right: 10px;
     margin-left: 5px;
@@ -97,7 +97,7 @@ tooltip {
 
 #custom-launcher {
     color: #8cb6ff;
-    padding-right: 15px;
+    padding-right: 20px;
     padding-left: 15px;
     margin-right: 5px;
     margin-left: 10px;
@@ -106,7 +106,7 @@ tooltip {
 
 #pulseaudio {
     padding-left: 15px;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-right: -15px;
     border-radius: 15px 0px 0px 15px;
 }
@@ -114,7 +114,7 @@ tooltip {
 #clock {
     padding-right: 5px;
     margin-right: 5px;
-    margin-left: -15px;
+    margin-left: -22px;
     border-radius: 0px 15px 15px 0px;
 }
 
