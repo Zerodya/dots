@@ -17,6 +17,10 @@
 - Shell: [**Fish**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/fish)
 - Prompt: [starship](https://starship.rs/)
 
+**Fonts:**
+- Terminal: [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
+- Waybar: [BitstreamVeraSansMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/BitstreamVeraSansMono)
+
 **Additional software:**
 - Editor: [**Neovim**](https://github.com/Zerodya/dotfiles/blob/main/Carbonfox%20Hyprland/.config/nvim/lua/user/init.lua) with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 - Document viewer: [**Zathura**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/zathura)
@@ -24,7 +28,7 @@
 ***
 ### Packages
 ```
-yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland j4-dmenu-desktop swayidle swaylock-effects-git
+yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland j4-dmenu-desktop swayidle swaylock-effects-git nerd-fonts-meta ttf-material-design-icons-extended
 ```
 
 ***
@@ -94,7 +98,7 @@ yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland j4-dmenu-des
 | `Super + F` | Toggle maximize window |
 | `Super + Shift + F` | Toggle fullscreen window |
 | `Super + Shift + E` | Powermenu |
-| `Alt + Space` | Switch keyboard layout (Us/It/Colemak-DH) |
+| `Super + Space` | Switch keyboard layout (Us/It/Colemak-DH) |
 
 ***
 Inspired by/forked from:
