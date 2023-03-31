@@ -88,7 +88,7 @@
         "format-disconnected": "<span size='13000' foreground='#ee5396'>󰤮   </span>",
         "tooltip-format-wifi": "Connected to: {essid}\nSignal strength: {signalStrength}%",
         "format-icons": ["󰤟","󰤢","󰤥","󰤨"],
-        "on-click": "nm-connection-editor"
+        "on-click": "xargs -a ~/.config/bemenu/config networkmanager_dmenu"
     },
     "pulseaudio": {
         "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
