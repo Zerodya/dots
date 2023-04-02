@@ -15,8 +15,8 @@ effect-blur=20x2
 effect-scale=0.3
 
 indicator
-indicator-radius=140
-indicator-thickness=10
+indicator-radius=110
+indicator-thickness=4
 
 # Colors
 key-hl-color=#78a9ff
