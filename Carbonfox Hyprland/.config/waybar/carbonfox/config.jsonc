@@ -3,11 +3,11 @@
     "layer": "top", 
     "modules-left": ["custom/launcher", "wlr/workspaces"],
     "modules-center": ["custom/media"],
-    "modules-right": ["tray", "custom/updates-pacman-aur", "pulseaudio", "clock", "custom/power"],
+    "modules-right": ["tray", "custom/updates-pacman-aur", "custom/brightness", "pulseaudio", "clock", "custom/power"],
 
     // Modules configuration
     "wlr/workspaces": {
-	"all-outputs": true,
+        "all-outputs": true,
         "sort-by-number": true,
         "format": "{icon}",
         "on-click": "activate",
@@ -20,7 +20,7 @@
         "on-scroll-down": "hyprctl dispatch workspace e+1"
     },
     "custom/launcher":{
-        "format": ""
+        "format": ""
         //"on-click": "do something..."
     },
     "custom/power":{
@@ -28,13 +28,12 @@
         "on-click": "~/scripts/wofi-power-menu"
     },
     "custom/updates-pacman-aur":{
-        "exec-on-event": true,
         "format": "<span foreground='#8cb6ff'></span> {}",
         "exec" : "$HOME/.config/waybar/scripts/updates-pacman-aur.sh",
         "interval": 300,
-        "on-click": "kitty -c .config/kitty/carbonfox/kitty.conf sh -c 'sudo pacman -Syu ; echo Done - Press enter to exit; read _'",
-        "on-click-right": "kitty -c .config/kitty/carbonfox/kitty.conf sh -c 'yay -Sua --sudoloop ; echo Done - Press enter to exit; read _'",
-        "on-click-middle": "kitty -c .config/kitty/carbonfox/kitty.conf sh -c 'yay -Syu --sudoloop ; echo Done - Press enter to exit; read _'"
+        "on-click": "kitty -c .config/kitty/carbonfox/kitty.conf sh -c 'sudo pacman -Syu ; echo Done - Press enter to exit; read _'", //Update from Arch repos
+        "on-click-right": "kitty -c .config/kitty/carbonfox/kitty.conf sh -c 'yay -Sua --sudoloop ; echo Done - Press enter to exit; read _'", //Update from AUR
+        "on-click-middle": "kitty -c .config/kitty/carbonfox/kitty.conf sh -c 'yay -Syu --sudoloop ; echo Done - Press enter to exit; read _'" //Update all
     },
     "custom/media": {
         "format": "{icon} {}",
@@ -51,15 +50,28 @@
         "on-click-right": "playerctl next",
         "on-click-middle": "playerctl previous"
     },
+    "custom/brightness": {
+        // Controls brightness of external display (hdmi/dp) via 'ddcutil'
+        // User needs to install the 'ddcutil' and 'i2c-tools' packages, and be part of i2c group
+        "format": "<span size='13000' foreground='#8cb6ff'>{icon}</span>  {}%",
+        "format-icons": ["󰖨"],
+        "exec": "$HOME/.config/waybar/scripts/external-brightness.sh",
+        "exec-on-event": false,
+        "interval": "once",
+        "signal": 4,
+        "on-scroll-up": "ddcutil setvcp 10 + 10; pkill -SIGRTMIN+4 waybar",
+        "on-scroll-down": "ddcutil setvcp 10 - 10; pkill -SIGRTMIN+4 waybar"
+        // Don't scroll too fast!
+    },
     "clock": {
-	"format": "<span foreground='#8cb6ff'> </span>{:%I:%M %p}",
+        "format": "<span foreground='#8cb6ff'> </span> {:%I:%M %p}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
-	},
+    },
     "pulseaudio": {
-	"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
-	"on-click-right": "pavucontrol",
-	"format": "<span size='13000' foreground='#8cb6ff'>{icon}</span> {volume}%",
-        "format-muted": "<span size='14000' foreground='#ff7eb6'></span> Muted",
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-click-right": "pavucontrol",
+        "format": "<span size='13000' foreground='#8cb6ff'>{icon} </span> {volume}%",
+        "format-muted": "<span size='14000' foreground='#ff7eb6'></span> ",
         "format-icons": {
             "headphone": "",
             "hands-free": "",

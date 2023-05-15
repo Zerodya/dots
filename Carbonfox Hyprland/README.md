@@ -4,6 +4,7 @@
 **Color scheme:** [Carbonfox](https://github.com/EdenEast/nightfox.nvim#carbonfox)
 - WM: [**Hyprland**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/hypr)
 - Bar: [**Waybar**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/waybar)
+- Wallpaper manager: [swww](https://github.com/Horus645/swww)
 - Launcher: [**Bemenu**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/bemenu) + [j4-dmenu-desktop](https://github.com/enkore/j4-dmenu-desktop)
 - Network Manager: [**networkmanager-dmenu**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/networkmanager-dmenu) + Bemenu backend
 - Powermenu: [**Wofi**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/wofi) + [**custom script**](https://github.com/Zerodya/dotfiles/blob/main/Carbonfox%20Hyprland/scripts/wofi-power-menu)
@@ -29,8 +30,10 @@
 ***
 ### Packages
 ```
-yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland j4-dmenu-desktop swayidle swaylock-effects-git nerd-fonts-meta ttf-material-design-icons-extended networkmanager-dmenu-git
+yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland j4-dmenu-desktop swayidle swaylock-effects-git swww nerd-fonts-meta ttf-material-design-icons-extended networkmanager-dmenu-git
 ```
+### Optional packages:
+`ddcutil` - to change brightness of external HDMI/DP monitors via waybar `custom-brightness` module
 
 ***
 ### Screenshots

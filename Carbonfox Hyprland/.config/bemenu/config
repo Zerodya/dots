@@ -1,4 +1,4 @@
--i --prompt '   |' --fn "BitstreamVeraSansMono Nerd Font 11" --tb "#161616" --tf "#8cb6ff" --fb "#161616" --ff "#f2f4f8" --nb "#282828" --nf "#f2f4f8" --hb "#332E41" --hf "#ff7eb6" --sb "#332E41" --sf "#ff7eb6" -H 37
+-i --prompt ' ' --fn "BitstreamVeraSansMono Nerd Font 11" --tb "#161616" --tf "#8cb6ff" --fb "#161616" --ff "#f2f4f8" --nb "#282828" --nf "#f2f4f8" --hb "#332E41" --hf "#ff7eb6" --sb "#332E41" --sf "#ff7eb6" -H 37
 
 # bemenu will use the options above by running "xargs -a ~/.config/bemenu/config bemenu".
 # You can use 'j4-dmenu-desktop' to pass desktop gui applications to bemenu.
