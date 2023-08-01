@@ -73,7 +73,7 @@
       "format-disconnected": "<span size='13000'>󰤮</span>",
       "tooltip-format-wifi": "Connected to: {essid}\nSignal strength: {signalStrength}%",
       "format-icons": ["󰤟","󰤢","󰤥","󰤨"],
-      "on-click": "xargs -a ~/.config/bemenu/config networkmanager_dmenu",
+      "on-click": "xargs -a ~/.config/bemenu/evocarbon/config networkmanager_dmenu",
 			"on-click-right": "nm-connection-editor",
 		},
 		"pulseaudio": {
