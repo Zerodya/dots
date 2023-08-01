@@ -1,0 +1,25 @@
+layer=top
+markup=1
+anchor=top-right
+background-color=#101213cc
+text-color=#f2f4f8
+width=300
+height=100
+max-icon-size=52
+icon-location=right
+margin=6,6,0
+padding=15,15,15
+border-size=2
+border-color=#0c0e0f
+border-radius=12
+progress-color=over #282828
+default-timeout=5000
+group-by=summary
+format=<span font="SF Mono weight=600" size="11000">%s</span>\n<span font="SF Mono weight=350" size="10000">%b</span>
+
+[grouped]
+format=<span font="SF Mono weight=600" size="11000">%s</span>\n<span font="SF Mono weight=350" size="10000">%b</span>
+
+[mode=do-not-disturb]
+invisible=1
+

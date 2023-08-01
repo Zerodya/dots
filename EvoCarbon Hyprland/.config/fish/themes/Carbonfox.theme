@@ -1,0 +1,24 @@
+# name: 'Carbonfox' 
+# url: 'https://github.com/EdenEast/nightfox.nvim/blob/main/extra/carbonfox/nightfox_fish.fish'
+
+# Syntax Highlighting Colors
+fish_color_normal f2f4f8
+fish_color_command 33b1ff
+fish_color_keyword ff7eb6
+fish_color_quote 08bdba
+fish_color_redirection f2f4f8
+fish_color_end 3ddbd9
+fish_color_error ee5396
+fish_color_param be95ff
+fish_color_comment 6e6f70
+fish_color_selection --background=2a2a2a
+fish_color_search_match --background=2a2a2a
+fish_color_operator 25be6a
+fish_color_escape ff7eb6
+fish_color_autosuggestion 6e6f70
+
+# Completion Pager Colors
+fish_pager_color_progress 6e6f70
+fish_pager_color_prefix 33b1ff
+fish_pager_color_completion f2f4f8
+fish_pager_color_description 6e6f70

@@ -1,0 +1,50 @@
+ignore-empty-password
+hide-keyboard-layout
+disable-caps-lock-text
+font=SF Mono
+
+clock
+timestr=%I:%M %p
+datestr=%a, %B %e
+
+screenshots
+
+fade-in=0.2
+
+effect-blur=20x2
+effect-scale=0.3
+
+indicator
+indicator-radius=90
+indicator-thickness=4
+
+# Colors
+key-hl-color=#78a9ff
+bs-hl-color=#ee5396
+separator-color=#00000000
+
+# Base
+text-color=#cdd6f4
+inside-color=#0c0e0fcc
+ring-color=#282828
+line-color=#00000000
+
+# Clear
+text-clear-color=#c8a5ff
+inside-clear-color=#0c0e0fcc
+ring-clear-color=#c8a5ff
+line-clear-color=#00000000
+
+# Verify
+text-ver-color=#00000000
+inside-ver-color=#0c0e0fcc
+ring-ver-color=#282828
+line-ver-color=#00000000
+
+# Wrong
+text-wrong-color=#ee5396
+inside-wrong-color=#0c0e0fcc
+ring-wrong-color=#ee5396
+line-wrong-color=#00000000
+
+
