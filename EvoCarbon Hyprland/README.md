@@ -23,10 +23,6 @@
 - Terminal: [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
 - Waybar: [SF Mono](https://developer.apple.com/fonts/)
 
-**Additional software:**
-- Editor: [**Neovim**](https://github.com/Zerodya/dotfiles/blob/main/Carbonfox%20Hyprland/.config/nvim/lua/user/init.lua) with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
-- Document viewer: [**Zathura**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/zathura)
-
 ***
 ### Packages
 ```
@@ -80,7 +76,7 @@ yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland adw-gtk3 gra
 
 ![alt text](https://github.com/Zerodya/dotfiles/raw/main/EvoCarbon%20Hyprland/screenshots/spotify_mako.png)
 
-**Htop** and **Powermenu**
+**Htop** and **Wofi Powermenu**
 
 ![alt text](https://github.com/Zerodya/dotfiles/raw/main/EvoCarbon%20Hyprland/screenshots/htop_powermenu.png)
 
