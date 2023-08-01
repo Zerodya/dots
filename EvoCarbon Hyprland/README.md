@@ -1,6 +1,5 @@
 ![alt text](https://github.com/Zerodya/dotfiles/raw/main/EvoCarbon%20Hyprland/screenshots/clean.png)
-
-# EvoCarbon
+# 👽 EvoCarbon Hyprland
 
 **Color scheme:** [Carbonfox](https://github.com/EdenEast/nightfox.nvim#carbonfox) inspired
 - WM: [**Hyprland**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/hypr)

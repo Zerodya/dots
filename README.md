@@ -1,7 +1,7 @@
 # <p align="center"> 🌌 Dotfiles </p>
 ~ Welcome to my dotfiles repository! Here you will find the configuration files I use for my Linux setups on Arch and Artix.
 ***
-# 👽 [EvoCarbon Hyprland](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland)
+# 👽 [EvoCarbon Hyprland](https://github.com/Zerodya/dotfiles/tree/main/EvoCarbon%20Hyprland)
 ![alt text](https://github.com/Zerodya/dotfiles/raw/main/EvoCarbon%20Hyprland/screenshots/clean.png)
 
 # 🌃 [Carbonfox Hyprland](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland)

@@ -1,6 +1,7 @@
 ![alt text](https://github.com/Zerodya/dotfiles/raw/main/Comfy%20station%20i3/screenshots/clean.png)
-⚠️ **These dotfiles will no longer be updated as I'm not using i3 anymore**
-***
+**(No longer maintained)**
+# ☕ Comfy station i3
+
 Color scheme: [Catppuccin](https://github.com/catppuccin/catppuccin)
 - WM: [**i3**](https://github.com/Zerodya/dotfiles/tree/main/Comfy%20station%20i3/.config/i3)
 - Bar: [**Polybar**](https://github.com/Zerodya/dotfiles/tree/main/Comfy%20station%20i3/.config/polybar)

@@ -1,6 +1,7 @@
 ![alt text](https://github.com/Zerodya/dotfiles/raw/main/Carbonfox%20Hyprland/screenshots/clean.png)
+**(No longer maintained)**
+# 🌃 Carbonfox Hyprland
 
-***
 **Color scheme:** [Carbonfox](https://github.com/EdenEast/nightfox.nvim#carbonfox)
 - WM: [**Hyprland**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/hypr)
 - Bar: [**Waybar**](https://github.com/Zerodya/dotfiles/tree/main/Carbonfox%20Hyprland/.config/waybar)
