@@ -96,9 +96,9 @@
         "format": "<span size='12000'></span> {}",
         "exec" : "$HOME/.config/waybar/scripts/updates-pacman-aur.sh",
         "interval": 300,
-        "on-click": "kitty -c .config/kitty/carbonfox/kitty.conf sh -c 'sudo pacman -Syu ; echo Done - Press enter to exit; read _'",
-        "on-click-right": "kitty -c .config/kitty/carbonfox/kitty.conf sh -c 'yay -Sua --sudoloop ; echo Done - Press enter to exit; read _'",
-        "on-click-middle": "kitty -c .config/kitty/carbonfox/kitty.conf sh -c 'yay -Syu --sudoloop ; echo Done - Press enter to exit; read _'",
+        "on-click": "kitty -c .config/kitty/evocarbon/kitty.conf sh -c 'sudo pacman -Syu ; echo Done - Press enter to exit; read _'",
+        "on-click-right": "kitty -c .config/kitty/evocarbon/kitty.conf sh -c 'yay -Sua --sudoloop ; echo Done - Press enter to exit; read _'",
+        "on-click-middle": "kitty -c .config/kitty/evocarbon/kitty.conf sh -c 'yay -Syu --sudoloop ; echo Done - Press enter to exit; read _'",
     },
     "tray": {
         "icon-size": 16,
