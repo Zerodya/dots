@@ -1,4 +1,5 @@
 ![alt text](https://github.com/Zerodya/dotfiles/raw/main/EvoCarbon%20Hyprland/screenshots/clean.png)
+<sup>[reddit post](https://www.reddit.com/r/unixporn/comments/15rtp3n/hyrpland_feels_nice/) | [lemmy post](https://lemm.ee/post/4347421)</sup>
 # 👽 EvoCarbon Hyprland
 
 **Color scheme:** [Carbonfox](https://github.com/EdenEast/nightfox.nvim#carbonfox) inspired

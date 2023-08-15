@@ -1,4 +1,6 @@
 ![alt text](https://github.com/Zerodya/dotfiles/raw/main/Carbonfox%20Hyprland/screenshots/clean.png)
+<sup>[reddit post](https://www.reddit.com/r/unixporn/comments/116dr1x/hyprland_carbonfox_needs_more_love/)</sup>
+
 **(No longer maintained)**
 # 🌃 Carbonfox Hyprland
 
