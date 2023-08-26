@@ -33,9 +33,14 @@ yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland adw-gtk3 gra
 - `wlsunset` - for night light support (click on brightness module to switch it on/off)
 
 ### Further steps
-**On Desktop**
+**Make scripts executable**
+- `chmod +x ~/.config/bemenu/evocarbon/run.sh`
+- `chmod +x ~/.config/waybar/scripts/external-brightness.sh`
+- `chmod +x ~/.config/waybar/scripts/updates-pacman-aur.sh`
+- `chmod +x ~/.config/wofi/evocarbon/wofi-power-menu.sh`
 
-- Also install `ddcutil` and `i2c-tools` to change brightness of HDMI/DP screen via Waybar `custom-brightness` module:
+**On Desktop** (Skip if you're on laptop)
+- Install `ddcutil` and `i2c-tools` to change brightness of HDMI/DP screen via Waybar `custom-brightness` module:
 
     `yay -S --needed ddcutil i2c-tools`
 
@@ -43,9 +48,9 @@ yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland adw-gtk3 gra
     
     `sudo usermod -a -G i2c $USER`
 
-- Change `--bus X` with the number of your monitor bus, detected with `ddcutil detect`, both [here](https://github.com/Zerodya/dotfiles/blob/main/EvoCarbon%20Hyprland/.config/waybar/evocarbon/config.jsonc#L119) and [here](https://github.com/Zerodya/dotfiles/blob/main/EvoCarbon%20Hyprland/.config/waybar/scripts/external-brightness.sh#L4)
+- Change `--bus X` with the number of your monitor bus (detected with `ddcutil detect`) both [here](https://github.com/Zerodya/dotfiles/blob/main/EvoCarbon%20Hyprland/.config/waybar/evocarbon/config.jsonc#L119) and [here](https://github.com/Zerodya/dotfiles/blob/main/EvoCarbon%20Hyprland/.config/waybar/scripts/external-brightness.sh#L4)
 
-**On Laptop**
+**On Laptop** (Skip if you're on desktop)
 - Uncomment [Laptop Bar](https://github.com/Zerodya/dotfiles/blob/main/EvoCarbon%20Hyprland/.config/waybar/evocarbon/config.jsonc#L11) in Waybar's config (and comment out [Desktop Bar](https://github.com/Zerodya/dotfiles/blob/main/EvoCarbon%20Hyprland/.config/waybar/evocarbon/config.jsonc#L6))
 - Use the hyprland config for laptops: 
     
@@ -57,6 +62,26 @@ yay -S --needed waybar-hyprland-git mako wofi bemenu bemenu-wayland adw-gtk3 gra
 - Set the GTK theme in Gradience: 
   - Open Gradience -> Preset Menu -> Manage Presets -> Import [this](https://github.com/Zerodya/dotfiles/blob/main/EvoCarbon%20Hyprland/.config/presets/user/evocarbon.json) -> Apply 
   - Logout to see changes
+
+**On Arch/systemd** (skip if you're on Artix)
+- In `~/.config/wofi/evocarbon/wofi-power-menu.sh`, change this:
+    ```
+      shutdown)
+        loginctl poweroff;;
+      reboot)
+        loginctl reboot;;
+      suspend)
+        loginctl suspend;;
+    ```
+    to this:
+    ```
+      shutdown)
+        systemctl poweroff;;
+      reboot)
+        systemctl reboot;;
+      suspend)
+        systemctl suspend;;
+    ```
 
 ***
 ### Screenshots
