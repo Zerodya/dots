@@ -94,7 +94,7 @@ window#waybar {
     color: #8cb6ff;
 }
 
-#battery.critical:not(.charging) {
+#battery.warning:not(.charging) {
     color: #ff7eb6;
 }
 
