@@ -10,7 +10,7 @@
   // Laptop Bar
   /*
   "modules-left": ["custom/launcher", "custom/playerctl", "custom/playerlabel"],
-  "modules-center": ["wlr/workspaces"],
+  "modules-center": ["hyprland/workspaces"],
   "modules-right": ["tray", "custom/updates-pacman-aur", "backlight", "pulseaudio", "battery", "network", "clock"],
   */
 
